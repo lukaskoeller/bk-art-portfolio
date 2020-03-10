@@ -1,0 +1,12 @@
+.page-header {
+    width: 100%;
+    margin: 0 auto;
+    padding: var(--spacing-section) var(--spacing-6);
+    background-color: var(--primary-color);
+
+    &__headline {
+        margin-top: var(--spacing-15);
+        color: white;
+        text-align: center;
+    }
+}

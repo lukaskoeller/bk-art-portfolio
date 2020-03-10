@@ -7,6 +7,39 @@
     justify-content: space-between;
     width: 100%;
     padding: var(--spacing-6);
+
+    &__home {
+        display: flex;
+        align-items: center;
+    }
+
+    &__title {
+        margin-left: var(--spacing-6);
+    }
+
+    &--light {
+        color: black;
+    }
+
+    &--dark {
+        .nav__item {
+            color: white;
+        }
+
+        .header__title {
+            color: white;
+        }
+
+        .logo {
+            &__rect {
+                stroke: white;
+            }
+
+            &__path {
+                fill: white;
+            }
+        }
+    }
 }
 
 .nav {
