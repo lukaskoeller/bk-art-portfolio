@@ -1,0 +1,27 @@
+html {
+  background-color: $viewport-background-color;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  margin:0;
+  padding:0;
+}
