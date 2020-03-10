@@ -5,7 +5,11 @@ html {
   line-height: var(--line-height);
 }
 
-h1,
+h1 {
+  font-size: 2rem;
+  margin: 0 0 var(--spacing-5);
+}
+
 h2,
 h3,
 h4,

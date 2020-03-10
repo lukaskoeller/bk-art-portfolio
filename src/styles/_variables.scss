@@ -15,10 +15,10 @@ $viewport-background-color: $secondary-color;
 
 :root {
   // Colors
-  --primary-color: $primary-color;
-  --secondary-color: $secondary-color;
+  --primary-color: hsl(0, 0%, 0%);
+  --secondary-color: hsl(0, 0%, 100%);
   --font-color: $font-color--base;
-  --background-color: $background-color;
+  --background-color: hsl(240, 100%, 98%);
 
   // Breakpoints
   --desktop: 1700px;

@@ -2,20 +2,17 @@ import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 
+// Components
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Container from "../components/container"
 
+// Styles
+import "./index.scss"
+
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "gatsby-astronaut.png" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
       heroImage: file(relativePath: { eq: "painting-1.jpg" }) {
         childImageSharp {
           fluid {
@@ -33,9 +30,9 @@ const IndexPage = () => {
     </Container>
     <Container className="intro" styleModifier={["Grid"]}>
       <div className="intro__about">
-        <h1>Hi people</h1>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
+        <h1>This is me</h1>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+        <p> At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
       </div>
       <div className="intro__quote">
         <blockquote>
@@ -43,10 +40,9 @@ const IndexPage = () => {
         </blockquote>
       </div>
     </Container>
-    <Container>
-      <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+    <Container className="gallery" styleModifier={["Grid"]}>
+      1337
     </Container>
-    <Link to="/about/">Go to page 2</Link>
   </Layout>)
 }
 

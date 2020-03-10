@@ -1,16 +1,26 @@
 import React from "react"
 import { Link } from "gatsby"
 
+// Components
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import PageHeader from "../components/pageheader"
 
-const AboutPage = () => (
-  <Layout>
-    <SEO title="About" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
-  </Layout>
-)
+const AboutPage = () => {
+  function determineTheme() {
+    console.log("Hallo Leute")
+  }
+
+  determineTheme();
+
+  return (
+    <Layout>
+      <SEO title="About" />
+      <PageHeader>
+        <h1 className="page-header__headline">Eine lange Reise</h1>
+      </PageHeader>
+    </Layout>
+  )
+}
 
 export default AboutPage

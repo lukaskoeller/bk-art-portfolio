@@ -1,0 +1,15 @@
+.intro {
+    &__about {
+        grid-column: 1 / span 8;
+    }
+
+    &__quote {
+        grid-column: 12 / span 9;
+        min-height: 50vh;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+}
