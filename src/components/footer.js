@@ -2,8 +2,15 @@
 import PropTypes from "prop-types"
 import React from "react"
 
+// Components
+import Container from "../components/container"
+
 const Footer = ({ siteTitle }) => (
-<footer>Year {new Date().getFullYear()}</footer>
+  <Container>
+    <footer>
+      {siteTitle} - Year {new Date().getFullYear()}
+    </footer>
+  </Container>
 )
 
 Footer.propTypes = {
