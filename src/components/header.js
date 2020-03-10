@@ -13,6 +13,12 @@ const Header = ({ siteTitle }) => (
         <Logo />
       </Link>
     </div>
+    <nav>
+      <Link to="/About/">Künstler</Link>
+      <Link to="/Gallery/">Gallerie</Link>
+      <Link to="/Exhibitions/">Ausstellungen</Link>
+      <Link to="/Contact/">Kontakt</Link>
+    </nav>
   </header>
   // <header
   //   style={{
