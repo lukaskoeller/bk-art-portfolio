@@ -14,7 +14,7 @@ const AboutPage = () => {
   determineTheme();
 
   return (
-    <Layout>
+    <Layout theme="dark">
       <SEO title="About" />
       <PageHeader>
         <h1 className="page-header__headline">Eine lange Reise</h1>

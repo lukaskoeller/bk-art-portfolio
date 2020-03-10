@@ -51,3 +51,13 @@
         padding: var(--spacing-4);
     }
 }
+
+.logo {
+    &__rect {
+        transition: 3s var(--timing);
+    }
+
+    &__path {
+        transition: 3s var(--timing);
+    }
+}
