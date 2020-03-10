@@ -15,4 +15,10 @@
         padding: 0;
         overflow: hidden;
     }
+
+    &--grid {
+        display: grid;
+        grid-template-columns: repeat(20, 1fr);
+        column-gap: var(--spacing-4);
+    }
 }

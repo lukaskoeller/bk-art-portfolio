@@ -31,10 +31,17 @@ const IndexPage = () => {
     <Container styleModifier={["FullWidth"]}>
       <Img fluid={data.heroImage.childImageSharp.fluid} />
     </Container>
-    <Container>
-      <h1>Hi people</h1>
-      <p>Welcome to your new Gatsby site.</p>
-      <p>Now go build something great.</p>
+    <Container className="intro" styleModifier={["Grid"]}>
+      <div className="intro__about">
+        <h1>Hi people</h1>
+        <p>Welcome to your new Gatsby site.</p>
+        <p>Now go build something great.</p>
+      </div>
+      <div className="intro__quote">
+        <blockquote>
+          <p>You don't have to be great to start, but you have to start to be great.</p>
+        </blockquote>
+      </div>
     </Container>
     <Container>
       <Img fluid={data.placeholderImage.childImageSharp.fluid} />

@@ -1,0 +1,20 @@
+.header {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: var(--spacing-6);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__item {
+        padding: var(--spacing-4);
+    }
+}
