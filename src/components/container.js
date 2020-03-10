@@ -14,11 +14,6 @@ const Container = (props) => {
     })
     return styleModifierClasses;
   };
-  
-
-  console.log(props.styleModifier);
-  console.log(typeof props.styleModifier[0]);
-  // addModifier(props.styleModifier)
 
   return (
     <section className={container.section}>
