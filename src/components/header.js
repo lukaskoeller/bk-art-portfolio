@@ -3,21 +3,21 @@ import PropTypes from "prop-types"
 import React from "react"
 
 // Styles
-import header from "./header.module.scss"
+import "./header.scss"
 import Logo from "../images/barbara-koeller-logo.inline.svg"
 
 const Header = ({ siteTitle }) => (
-  <header className={header.header}>
+  <header className="header">
     <div>
       <Link to="/">
         <Logo />
       </Link>
     </div>
-    <nav>
-      <Link to="/About/">Künstler</Link>
-      <Link to="/Gallery/">Gallerie</Link>
-      <Link to="/Exhibitions/">Ausstellungen</Link>
-      <Link to="/Contact/">Kontakt</Link>
+    <nav className="nav">
+      <Link className="nav__item" to="/about">Künstler</Link>
+      <Link className="nav__item" to="/gallery/">Gallerie</Link>
+      <Link className="nav__item" to="/exhibitions/">Ausstellungen</Link>
+      <Link className="nav__item" to="/contact/">Kontakt</Link>
     </nav>
   </header>
   // <header
