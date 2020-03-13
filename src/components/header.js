@@ -11,8 +11,13 @@ import "./header.scss"
 const Header = ({ siteTitle, theme }) => {
   const query = useStaticQuery(graphql`
     query SiteNameQuery{
-      sitePlugin {
-        name
+      allSitePage {
+        edges {
+          node {
+            id
+            path
+          }
+        }
       }
     }
   `)
@@ -23,7 +28,7 @@ const Header = ({ siteTitle, theme }) => {
         <Link to="/">
           <Logo className="header__logo" />
         </Link>
-        <h3 className="header__title">{query.sitePlugin.name}</h3>
+        <h3 className="header__title">{query.allSitePage.edges[0].node.path}</h3>
       </div>
       <nav className="nav">
         <Link className="nav__item" to="/about">Künstler</Link>
