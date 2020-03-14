@@ -32,6 +32,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
+    `gatsby-remark-smartypants`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
