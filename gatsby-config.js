@@ -5,17 +5,8 @@ module.exports = {
     author: `Lukas Koeller`,
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-react-svg`,
-      options: {
-        rule: {
-          include: /\.inline\.svg$/,
-        }
-      }
-    },
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`,
-    `gatsby-plugin-postcss`,
+    `gatsby-plugin-sharp`, // Put this plugin firstn (see: https://dev.to/stephencweiss/error-field-image-must-not-have-a-selection-since-type-string-has-no-subfields-3a76)
+    `gatsby-transformer-sharp`, // Put this plugin second
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -30,10 +21,39 @@ module.exports = {
         path: `${__dirname}/content/projects`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-transformer-remark`,
-    `gatsby-remark-smartypants`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-react-svg`,
+      options: {
+        rule: {
+          include: /\.inline\.svg$/,
+        }
+      }
+    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1920,
+            },
+          },
+          {
+            resolve: `gatsby-remark-responsive-iframe`,
+            options: {
+              wrapperStyle: `margin-bottom: 1.0725rem`,
+            },
+          },
+          // `gatsby-remark-prismjs`, Install for code styling
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`,
+        ],
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
