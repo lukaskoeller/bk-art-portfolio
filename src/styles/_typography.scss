@@ -5,21 +5,50 @@ html {
   line-height: var(--line-height);
 }
 
-h1 {
-  font-size: 2rem;
-  margin: 0 0 var(--spacing-5);
-}
-
-h2,
-h3,
-h4,
-h5,
-h6 {
+%headline-base {
   font-family: var(--font-family--heading);
-  font-size: 1.25rem;
   color: $primary-color;
   line-height: var(--line-height--heading);
   margin: 0 0 var(--spacing--small);
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0 0 var(--spacing-5);
+  @extend %headline-base;
+}
+
+h2 {
+  font-size: 1.7rem;
+  margin: 0 0 var(--spacing-4);
+  @extend %headline-base;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin: 0 0 var(--spacing-3);
+  @extend %headline-base;
+}
+
+h4 {
+  font-size: 1rem;
+  margin: 0 0 var(--spacing-2);
+  @extend %headline-base;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0 0 var(--spacing-1);
+  @extend %headline-base;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0 0 var(--spacing-1);
+  @extend %headline-base;
 }
 
 p {

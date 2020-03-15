@@ -7,6 +7,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PageHeader from "../components/pageheader"
 import Container from "../components/container"
+import Article from "../components/article"
 
 const ProjectTemplate = ({ data, pageContext }) => {
     const project = data.markdownRemark
@@ -20,8 +21,11 @@ const ProjectTemplate = ({ data, pageContext }) => {
                 {/* <img src={project.frontmatter.coverImage} /> */}
             </PageHeader>
             <Container>
-                <h1 className="page-header__headline">{project.frontmatter.title}</h1>
-                <div dangerouslySetInnerHTML={{ __html: project.html }}></div>
+                <Article>
+                    <h1 class="article__headline">{project.frontmatter.title}</h1>
+                    <div dangerouslySetInnerHTML={{ __html: project.html }}>
+                    </div>
+                </Article>
             </Container>
         </Layout>
     )
