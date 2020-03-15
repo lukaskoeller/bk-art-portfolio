@@ -11,4 +11,15 @@
     p {
         margin: 0 0 var(--spacing-4);
     }
+
+    blockquote {
+        max-width: 80%;
+        margin: var(--spacing-10) auto;
+        border-left: 2px solid var(--primary-color);
+        padding: var(--spacing-2) 0 var(--spacing-2) var(--spacing-6);
+
+        p {
+            margin-bottom: 0;
+        }
+    }
 }
