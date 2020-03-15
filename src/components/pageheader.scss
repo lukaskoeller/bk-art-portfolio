@@ -1,12 +1,21 @@
 .page-header {
     width: 100%;
+    height: 100vh;
     margin: 0 auto;
     padding: var(--spacing-section) var(--spacing-6);
+    padding-bottom: var(--spacing-15);
     background-color: var(--primary-color);
+    //overflow: hidden;
 
     &__headline {
         margin-top: var(--spacing-15);
+        margin-bottom: var(--spacing-15);
         color: white;
         text-align: center;
+    }
+
+    &__image {
+        width: auto;
+        height: 100%;
     }
 }

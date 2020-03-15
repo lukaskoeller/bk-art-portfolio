@@ -8,7 +8,7 @@ import Logo from "../images/barbara-koeller-logo.inline.svg"
 // Styles
 import "./header.scss"
 
-const Header = ({ siteTitle, theme }) => {
+const Header = ({ title, theme }) => {
   const query = useStaticQuery(graphql`
     query SiteNameQuery{
       allSitePage {
@@ -28,7 +28,7 @@ const Header = ({ siteTitle, theme }) => {
         <Link to="/">
           <Logo className="header__logo" />
         </Link>
-        <h3 className="header__title">{query.allSitePage.edges[0].node.path}</h3>
+        <h3 className="header__title">{title}</h3>
       </div>
       <nav className="nav">
         <Link className="nav__item" to="/about">Künstler</Link>

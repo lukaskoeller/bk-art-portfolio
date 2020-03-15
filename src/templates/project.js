@@ -1,22 +1,28 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Img from "gatsby-image"
 
 // Components
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PageHeader from "../components/pageheader"
-// import Container from "../components/container"
+import Container from "../components/container"
 
-const ProjectTemplate = ({ data, pageContext, location }) => {
+const ProjectTemplate = ({ data, pageContext }) => {
     const project = data.markdownRemark
     const { previous, next } = pageContext
 
     return (
-        <Layout theme="dark">
-            <SEO title={project.frontmatter.title} />
+        <Layout theme="dark" title={project.frontmatter.title}>
+            <SEO title={project.frontmatter.title} description={project.frontmatter.description || project.excerpt} />
             <PageHeader>
-                <h1 className="page-header__headline">{project.frontmatter.title}</h1>
+                <Img className="page-header__image" fluid={project.frontmatter.coverImage.childImageSharp.fluid} imgStyle={{ objectFit: "contain", }} />
+                {/* <img src={project.frontmatter.coverImage} /> */}
             </PageHeader>
+            <Container>
+                <h1 className="page-header__headline">{project.frontmatter.title}</h1>
+                <div dangerouslySetInnerHTML={{ __html: project.html }}></div>
+            </Container>
         </Layout>
     )
 }
@@ -33,7 +39,13 @@ export const pageQuery = graphql`
                 title
                 date(formatString: "MMMM DD, YYYY")
                 description
-                coverImage
+                coverImage {
+                    childImageSharp {
+                        fluid(maxWidth: 800) {
+                          ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
             }
         }
     }
