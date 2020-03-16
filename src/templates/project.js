@@ -18,13 +18,14 @@ const ProjectTemplate = ({ data, pageContext }) => {
     <Layout theme="dark" title={project.frontmatter.title}>
       <SEO title={project.frontmatter.title} description={project.frontmatter.description || project.excerpt} />
       <PageHeader>
+        <Img className="page-header__image" fluid={project.frontmatter.coverImage.childImageSharp.fluid} imgStyle={{ objectFit: 'contain' }} />
         <div className="page-header__nav">
           {previous && (
             <Link to={previous.fields.slug} className="page-header__nav-left" rel="prev">
                 ← {previous.frontmatter.title}
             </Link>
           )}
-          <Img className="page-header__image" fluid={project.frontmatter.coverImage.childImageSharp.fluid} imgStyle={{ objectFit: 'contain' }} />
+          <div>{project.frontmatter.title}</div>
           {next && (
             <Link to={next.fields.slug} className="page-header__nav-right" rel="next">
               {next.frontmatter.title} →
