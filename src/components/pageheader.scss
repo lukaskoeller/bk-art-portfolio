@@ -7,6 +7,22 @@
     background-color: var(--primary-color);
     //overflow: hidden;
 
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+
+        &-left, &-right {
+            color: rgba(white,0.2);
+            transition: var(--duration) var(--timing);
+
+            &:hover {
+                color: rgba(white,1);
+            }
+        }
+    }
+
     &__headline {
         margin-top: var(--spacing-15);
         margin-bottom: var(--spacing-15);
@@ -17,5 +33,6 @@
     &__image {
         width: auto;
         height: 100%;
+        flex-grow: 1;
     }
 }

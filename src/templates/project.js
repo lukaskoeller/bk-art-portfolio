@@ -18,25 +18,21 @@ const ProjectTemplate = ({ data, pageContext }) => {
     <Layout theme="dark" title={project.frontmatter.title}>
       <SEO title={project.frontmatter.title} description={project.frontmatter.description || project.excerpt} />
       <PageHeader>
-        <Img className="page-header__image" fluid={project.frontmatter.coverImage.childImageSharp.fluid} imgStyle={{ objectFit: 'contain' }} />
+        <div className="page-header__nav">
+          {previous && (
+            <Link to={previous.fields.slug} className="page-header__nav-left" rel="prev">
+                ← {previous.frontmatter.title}
+            </Link>
+          )}
+          <Img className="page-header__image" fluid={project.frontmatter.coverImage.childImageSharp.fluid} imgStyle={{ objectFit: 'contain' }} />
+          {next && (
+            <Link to={next.fields.slug} className="page-header__nav-right" rel="next">
+              {next.frontmatter.title} →
+            </Link>
+          )}
+        </div>
       </PageHeader>
       <Container>
-        <ul>
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
         <Article>
           <h1 className="article__headline">{project.frontmatter.title}</h1>
           <div dangerouslySetInnerHTML={{ __html: project.html }}>
