@@ -19,7 +19,6 @@ const ProjectTemplate = ({ data, pageContext }) => {
       <SEO title={project.frontmatter.title} description={project.frontmatter.description || project.excerpt} />
       <PageHeader>
         <Img className="page-header__image" fluid={project.frontmatter.coverImage.childImageSharp.fluid} imgStyle={{ objectFit: 'contain' }} />
-        {/* <img src={project.frontmatter.coverImage} /> */}
       </PageHeader>
       <Container>
         <ul>
@@ -51,7 +50,7 @@ const ProjectTemplate = ({ data, pageContext }) => {
 export default ProjectTemplate
 
 export const pageQuery = graphql`
-    query projectSite($slug: String!) {
+    query projectTemplate($slug: String!) {
         markdownRemark(fields: { slug: { eq: $slug } }) {
             id
             excerpt(pruneLength: 160)
