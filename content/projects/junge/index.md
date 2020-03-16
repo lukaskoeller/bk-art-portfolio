@@ -2,7 +2,7 @@
 title: "Junge"
 description: "The second painting is called junge."
 date: "2020-03-15T10:32:00.284Z"
-coverImage: "./painting-1.jpg"
+coverImage: "./painting-8.jpg"
 ---
 
 ## Story
