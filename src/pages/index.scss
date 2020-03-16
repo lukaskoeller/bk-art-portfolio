@@ -13,3 +13,48 @@
         font-size: 2rem;
     }
 }
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: var(--spacing-6);
+}
+
+.project {
+    position: relative;
+    overflow: hidden;
+
+    &:hover {
+        .project__info {
+            transform: translateY(0%);
+        }
+    }
+
+    &__image {
+        height: calc(35vw - 3*var(--spacing-6));
+        overflow: hidden;
+    }
+
+    &__info-container {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    &__info {
+        padding: var(--spacing-4) var(--spacing-6);
+        background: var(--primary-color);
+
+        transition: var(--duration) var(--timing);
+        transform: translateY(100%);
+    }
+
+    &__headline {
+        color: white;
+        margin: 0;
+    }
+}

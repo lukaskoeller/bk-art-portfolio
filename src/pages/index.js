@@ -1,6 +1,7 @@
 import React from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
+import PropTypes from 'prop-types'
 
 // Components
 import Layout from '../components/layout'
@@ -10,18 +11,8 @@ import Container from '../components/container'
 // Styles
 import './index.scss'
 
-const IndexPage = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      heroImage: file(relativePath: { eq: "painting-1.jpg" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
+const IndexPage = ({ data }) => {
+  const projects = data.allMarkdownRemark.edges
 
   return (<Layout>
     <SEO title="Home" />
@@ -40,10 +31,62 @@ const IndexPage = () => {
         </blockquote>
       </div>
     </Container>
-    <Container className="gallery" styleModifier={['Grid']}>
-      1337
+    <Container>
+      <div className="projects">
+        {projects.map(({ node }, index) => {
+          return (
+            <Link to={node.fields.slug} key={node.id} className="project">
+              <Img className="project__image" fluid={node.frontmatter.coverImage.childImageSharp.fluid} />
+              <div className="project__info-container">
+                <div className="project__info">
+                  <h2 className="project__headline">{node.frontmatter.title}</h2>
+                </div>
+              </div>
+            </Link>
+          )
+        })}
+      </div>
     </Container>
   </Layout>)
+}
+
+export const pageQuery = graphql`
+  query indexPage {
+    allMarkdownRemark {
+      edges {
+        node {
+          id
+          html
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            description
+            date
+            coverImage {
+              childImageSharp {
+                  fluid(maxWidth: 800) {
+                    ...GatsbyImageSharpFluid
+                  }
+              }
+            }
+          }
+        }
+      }
+    }
+    heroImage: file(relativePath: { eq: "painting-1.jpg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
+
+IndexPage.propTypes = {
+  data: PropTypes.object
 }
 
 export default IndexPage
