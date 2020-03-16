@@ -1,21 +1,21 @@
-import PropTypes from "prop-types"
-import React from "react"
+import PropTypes from 'prop-types'
+import React from 'react'
 
 // Styles
-import "./pageheader.scss"
+import './pageheader.scss'
 
 const PageHeader = ({ children }) => (
   <div className="page-header">
-      {children}
+    {children}
   </div>
 )
 
 PageHeader.propTypes = {
-  siteTitle: PropTypes.string,
+  children: PropTypes.node.required
 }
 
 PageHeader.defaultProps = {
-  siteTitle: ``,
+  siteTitle: ''
 }
 
 export default PageHeader

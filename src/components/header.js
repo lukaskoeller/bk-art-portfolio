@@ -1,27 +1,14 @@
-import { useStaticQuery, graphql, Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import { Link } from 'gatsby'
+import PropTypes from 'prop-types'
+import React from 'react'
 
 // Components
-import Logo from "../images/barbara-koeller-logo.inline.svg"
+import Logo from '../images/barbara-koeller-logo.inline.svg'
 
 // Styles
-import "./header.scss"
+import './header.scss'
 
 const Header = ({ title, theme }) => {
-  const query = useStaticQuery(graphql`
-    query SiteNameQuery{
-      allSitePage {
-        edges {
-          node {
-            id
-            path
-          }
-        }
-      }
-    }
-  `)
-
   return (
     <header className={`header header--${theme}`}>
       <div className="header__home">
@@ -41,12 +28,12 @@ const Header = ({ title, theme }) => {
 }
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
+  title: PropTypes.string,
+  theme: PropTypes.string
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
-  theme: `light`,
+  theme: 'light'
 }
 
 export default Header

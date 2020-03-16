@@ -4,13 +4,13 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-const path = require(`path`)
-const { createFilePath } = require(`gatsby-source-filesystem`)
+const path = require('path')
+const { createFilePath } = require('gatsby-source-filesystem')
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
-  const projectTemplate = path.resolve(`./src/templates/project.js`)
+  const projectTemplate = path.resolve('./src/templates/project.js')
   const result = await graphql(
     `
       {
@@ -50,8 +50,8 @@ exports.createPages = async ({ graphql, actions }) => {
       context: {
         slug: project.node.fields.slug,
         previous,
-        next,
-      },
+        next
+      }
     })
   })
 }
@@ -59,12 +59,12 @@ exports.createPages = async ({ graphql, actions }) => {
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
-  if (node.internal.type === `MarkdownRemark`) {
+  if (node.internal.type === 'MarkdownRemark') {
     const value = createFilePath({ node, getNode })
     createNodeField({
-      name: `slug`,
+      name: 'slug',
       node,
-      value,
+      value
     })
   }
 }

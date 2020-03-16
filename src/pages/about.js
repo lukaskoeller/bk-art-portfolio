@@ -1,16 +1,16 @@
-import React from "react"
+import React from 'react'
 
 // Components
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import PageHeader from "../components/pageheader"
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import PageHeader from '../components/pageheader'
 
 const AboutPage = () => {
-  function determineTheme() {
-    console.log("Hallo Leute")
+  function determineTheme () {
+    console.log('Hallo Leute')
   }
 
-  determineTheme();
+  determineTheme()
 
   return (
     <Layout theme="dark">
