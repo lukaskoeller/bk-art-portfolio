@@ -4,20 +4,20 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 // Styles
-import container from './container.module.scss'
+import './container.scss'
 
 const Container = ({ children, styleModifier }) => {
   function addModifier (styleModifier) {
     let styleModifierClasses = ''
     styleModifier.forEach((modifierName) => {
-      styleModifierClasses += ` ${container['container' + modifierName]}`
+      styleModifierClasses += `container--${modifierName}`
     })
     return styleModifierClasses
   };
 
   return (
-    <section className={container.section}>
-      <div className={`${container.container} ${addModifier(styleModifier)}`}>
+    <section className="section">
+      <div className={`container ${addModifier(styleModifier)}`}>
         {children}
       </div>
     </section>
