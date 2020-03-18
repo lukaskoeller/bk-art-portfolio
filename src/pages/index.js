@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 import PropTypes from 'prop-types'
+// import fs from 'fs'
 
 // Components
 import Layout from '../components/layout'
@@ -12,7 +13,21 @@ import Container from '../components/container'
 import './index.scss'
 
 const IndexPage = ({ data }) => {
-  const projects = data.allMarkdownRemark.edges
+  const projects = data.projects.edges
+  const exhibitions = data.exhibitions.edges
+
+  async function shareEvent (url, title, text) {
+    try {
+      await navigator.share({
+        url: url,
+        title: title,
+        text: text
+      })
+      console.log('Successfully shared event')
+    } catch (err) {
+      console.log(`Error: ${err}`)
+    }
+  }
 
   return (<Layout>
     <SEO title="Home" />
@@ -39,7 +54,7 @@ const IndexPage = ({ data }) => {
     <Container>
       <h2 className="container__headline">Gallerie</h2>
       <div className="projects">
-        {projects.map(({ node }, index) => {
+        {projects.map(({ node }) => {
           return (
             <Link to={node.fields.slug} key={node.id} className="project">
               <Img className="project__image" fluid={node.frontmatter.coverImage.childImageSharp.fluid} />
@@ -53,23 +68,47 @@ const IndexPage = ({ data }) => {
         })}
       </div>
     </Container>
+    <Container>
+      <h2 className="container__headline">Ausstellungen</h2>
+      <div className="exhibitions">
+        {exhibitions.map(({ node }) => {
+          return (
+            <div className="exhibition" key={node.id}>
+              <div className="exhibition__info">
+                <div className="exhibition__tag">{node.frontmatter.dateText}</div>
+                <div className="exhibition__tag">{node.frontmatter.location}</div>
+                <div className="exhibition__tag">{node.frontmatter.price}</div>
+              </div>
+              <div className="exhibition__content">
+                <h3 className="exhibition__headline">{node.frontmatter.title}</h3>
+                <p className="exhibition__desc">{node.frontmatter.description}</p>
+              </div>
+              <div className="exhibition__checkout">
+                <div className="exhibition__btn" onClick={shareEvent('https://bk-art.de', node.frontmatter.title, `Kunstausstellung von Bärbel Köller | ${node.frontmatter.dateText} | ${node.frontmatter.location}`)}>Teilen</div>
+                <div className="exhibition__btn">Zum Kalender hinzufügen</div>
+              </div>
+            </div>
+          )
+        })}
+      </div>
+    </Container>
   </Layout>)
 }
 
 export const pageQuery = graphql`
   query indexPage {
-    allMarkdownRemark {
+    projects: allMarkdownRemark(      
+      filter: {fileAbsolutePath: {regex: "/(\/content\/projects)/.*\\.md$/"}}
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       edges {
         node {
           id
-          html
           fields {
             slug
           }
           frontmatter {
             title
-            description
-            date
             coverImage {
               childImageSharp {
                   fluid(maxWidth: 800) {
@@ -77,6 +116,23 @@ export const pageQuery = graphql`
                   }
               }
             }
+          }
+        }
+      }
+    }
+    exhibitions: allMarkdownRemark(
+      filter: {fileAbsolutePath: {regex: "/(\/content\/exhibitions)/.*\\.md$/"}}
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            description
+            dateText
+            location
+            price
           }
         }
       }

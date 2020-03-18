@@ -22,6 +22,13 @@ module.exports = {
       }
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'exhibitions',
+        path: `${__dirname}/content/exhibitions`
+      }
+    },
+    {
       resolve: 'gatsby-plugin-react-svg',
       options: {
         rule: {
