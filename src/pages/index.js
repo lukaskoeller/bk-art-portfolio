@@ -16,22 +16,28 @@ const IndexPage = ({ data }) => {
 
   return (<Layout>
     <SEO title="Home" />
-    <Container styleModifier={['FullWidth']}>
-      <Img fluid={data.heroImage.childImageSharp.fluid} />
-    </Container>
-    <Container className="intro" styleModifier={['Grid']}>
-      <div className="intro__about">
-        <h1>This is me</h1>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-        <p> At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+    <div className="hero">
+      <div className="hero__image">
+        <Img fluid={data.heroImage.childImageSharp.fluid} />
       </div>
-      <div className="intro__quote">
-        <blockquote>
-          <p>You don&apos;t have to be great to start, but you have to start to be great.</p>
-        </blockquote>
+    </div>
+    <Container>
+      <div className="intro">
+        <div className="intro__about">
+          <h1 className="intro__headline">This is me</h1>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+          <p> At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        </div>
+        <Img className="intro__image" fluid={data.myImage.childImageSharp.fluid} />
+        {/* <div className="intro__quote">
+          <blockquote>
+            <p>You don&apos;t have to be great to start, but you have to start to be great.</p>
+          </blockquote>
+        </div> */}
       </div>
     </Container>
     <Container>
+      <h2 className="container__headline">Gallerie</h2>
       <div className="projects">
         {projects.map(({ node }, index) => {
           return (
@@ -76,6 +82,13 @@ export const pageQuery = graphql`
       }
     }
     heroImage: file(relativePath: { eq: "painting-1.jpg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    myImage: file(relativePath: { eq: "me.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid

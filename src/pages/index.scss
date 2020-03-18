@@ -1,16 +1,39 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    padding: var(--spacing-section) var(--spacing-6) var(--spacing-6) var(--spacing-6);
+    overflow: hidden;
+
+    &__image {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+}
+
 .intro {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
     &__about {
-        grid-column: 1 / span 8;
+        padding: var(--spacing-20) var(--spacing-20);
     }
 
     &__quote {
-        grid-column: 12 / span 9;
-        min-height: 50vh;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: var(--spacing-20) var(--spacing-20);
+        
         font-size: 2rem;
+        background-color: black;
+        color: white;
+    }
+
+    &__image {
+        width: 100%;
+        height: auto;
     }
 }
 
