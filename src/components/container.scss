@@ -9,6 +9,10 @@
     margin: 0 auto;
     padding: var(--spacing-section) var(--spacing-6);
 
+    &--dark-theme {
+        background-color: var(--primary-color);
+    }
+
     &--full-screen {
         max-width: 100%;
         height: 100vh;
