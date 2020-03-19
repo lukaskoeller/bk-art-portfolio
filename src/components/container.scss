@@ -31,6 +31,10 @@
         overflow: hidden;
     }
 
+    &--no-padding {
+        padding: 0;
+    }
+
     &--grid {
         display: grid;
         grid-template-columns: repeat(20, 1fr);
