@@ -92,6 +92,12 @@ const IndexPage = ({ data }) => {
         })}
       </div>
     </Container>
+    <Container styleModifier={['dark-theme']}>
+      <h2 className="container__headline container__headline--light">Kontakt</h2>
+      <div className="contact">
+        <p className="contact__desc p p--light">Hallo! Für allgemeine Anfragen schick eine Email an <a href="mailto:hallo@bk-art.de">hallo@bk-art.de</a>. Wenn du Interesse an einem Kauf der Bilder hast, schicke eine <a href={`mailto:hallo@bk-art.de?subject=Kaufanfrage - ${new Date().toISOString()}`}>Kaufanfrage</a>.</p>
+      </div>
+    </Container>
   </Layout>)
 }
 
