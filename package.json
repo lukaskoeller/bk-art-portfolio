@@ -5,7 +5,8 @@
   "version": "0.1.0",
   "author": "Lukas Koeller <lukas-koeller@onlinehome.de>",
   "dependencies": {
-    "gatsby": "^2.19.7",
+    "anchorate": "^1.2.3",
+    "gatsby": "^2.19.49",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-manifest": "^2.2.39",
     "gatsby-plugin-offline": "^3.0.32",

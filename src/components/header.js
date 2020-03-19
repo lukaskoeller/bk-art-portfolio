@@ -19,9 +19,9 @@ const Header = ({ title, theme }) => {
       </div>
       <nav className="nav">
         <Link className="nav__item" to="/about">Künstler</Link>
-        <Link className="nav__item" to="/gallery/">Gallerie</Link>
-        <Link className="nav__item" to="/exhibitions/">Ausstellungen</Link>
-        <Link className="nav__item" to="/contact/">Kontakt</Link>
+        <Link className="nav__item" to="/#gallery">Gallerie</Link>
+        <Link className="nav__item" to="/#exhibitions">Ausstellungen</Link>
+        <Link className="nav__item" to="/#contact">Kontakt</Link>
       </nav>
     </header>
   )

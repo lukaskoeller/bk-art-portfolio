@@ -4,6 +4,19 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-// You can delete this file if you're not using it
+// Styles
+import './src/styles/_base.scss'
 
-import "./src/styles/_base.scss"
+// const anchorate = require('anchorate')
+
+// exports.onRouteUpdate = () => {
+//   anchorate()
+// }
+
+// exports.onRouteUpdate = (location) => {
+//   if (location.hash) {
+//     setTimeout(() => {
+//       document.querySelector(`${location.hash}`).scrollIntoView()
+//     }, 0)
+//   }
+// }
