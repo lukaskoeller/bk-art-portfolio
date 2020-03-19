@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Name ~ Portfolio',
-    description: 'Portfolio Description',
+    title: 'Barbara Koeller ~ Kunst aus Hamburg',
+    description: 'Sie dir hier die Kunst von Barbara Koeller an.',
     author: 'Lukas Koeller'
   },
   plugins: [
