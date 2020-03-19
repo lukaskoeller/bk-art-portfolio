@@ -1,0 +1,28 @@
+.footer {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        color: white;
+    }
+
+    .logo {
+        &__rect {
+            stroke: white;
+        }
+
+        &__path {
+            fill: white;
+        }
+    }
+
+    &__notes {
+        flex-shrink: 1;
+    }
+
+    &__item {
+        padding: 0 var(--spacing-3);
+    }
+}
