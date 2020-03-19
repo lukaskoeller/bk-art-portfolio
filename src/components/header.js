@@ -13,7 +13,7 @@ const Header = ({ title, theme }) => {
     <header className={`header header--${theme}`}>
       <div className="header__home">
         <Link to="/">
-          <Logo className="header__logo" />
+          <Logo />
         </Link>
         <h3 className="header__title">{title}</h3>
       </div>
