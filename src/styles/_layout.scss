@@ -29,3 +29,20 @@ body {
 blockquote {
   margin: 0;
 }
+
+.p {
+  // paragraph
+
+  a {
+    font-weight: 500;
+    text-decoration: underline white !important;
+  }
+
+  &--light {
+    color: white;
+
+    a {
+      color: white;
+    }
+  }
+}
