@@ -6,9 +6,17 @@
 
 // Styles
 require('./src/styles/_base.scss')
+
+// Packages
 const { anchorate } = require('anchorate')
 
 // Scroll to anchor link (e.g '/#anchor-id')
 exports.onRouteUpdate = () => {
-  anchorate()
+  anchorate({
+    scroller: function (element) {
+      if (!element) return false
+      element.scrollIntoView({ behavior: 'smooth' })
+      return true
+    }
+  })
 }
