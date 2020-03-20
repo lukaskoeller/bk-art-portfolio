@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 // Styles
 import './container.scss'
 
-const Container = ({ children, styleModifier }) => {
+const Container = ({ children, styleModifier, id }) => {
   function addModifier (styleModifier) {
     let styleModifierClasses = ''
     styleModifier.forEach((modifierName) => {
@@ -16,7 +16,7 @@ const Container = ({ children, styleModifier }) => {
   };
 
   return (
-    <section className="section">
+    <section id={id} className="section">
       <div className={`container ${addModifier(styleModifier)}`}>
         {children}
       </div>
@@ -26,7 +26,8 @@ const Container = ({ children, styleModifier }) => {
 
 Container.propTypes = {
   children: PropTypes.node.isRequired,
-  styleModifier: PropTypes.array
+  styleModifier: PropTypes.array,
+  id: PropTypes.string
 }
 
 Container.defaultProps = {
