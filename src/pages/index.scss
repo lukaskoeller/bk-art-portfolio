@@ -134,4 +134,16 @@
         max-width: 60%;
         font-size: 2rem;
     }
+
+    // Deep-Selector workaround
+    p {
+        font-size: 2rem;
+        color: white;
+
+        a {
+            color: white;
+            font-weight: 500;
+            text-decoration: underline white !important;
+        }
+    }
 }
