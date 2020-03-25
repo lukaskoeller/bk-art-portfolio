@@ -80,3 +80,11 @@ $viewport-background-color: $secondary-color;
   --duration: 250ms;
   --timing: ease;
 }
+
+@media only screen and (max-width: 600px) {
+    
+  :root {
+    --spacing-section: 60px;
+  }
+  
+} 
