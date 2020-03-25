@@ -200,7 +200,10 @@ $spacing-6: 24px;
 }
 
 @media only screen and (max-width: calc(3 * #{$spacing-6} + 800px)) {
-   // 24px | <400px project> | 24px <400px project> | 24px = 872px
+    // 24px | <400px project> | 24px <400px project> | 24px = 872px
+    .projects {
+        grid-template-columns: 1fr;
+    }
     .project {
         &__image {
             height: auto;
