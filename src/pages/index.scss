@@ -96,6 +96,8 @@
     &__info {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
+        grid-template-areas:
+            "exhibition__date exhibition__location exhibition__price";
     }
 
     &__tag {
@@ -104,6 +106,18 @@
         padding: var(--spacing-4);
         border-right: 2px solid var(--primary-color);
         border-bottom: 2px solid var(--primary-color);
+    }
+
+    &__date {
+        grid-area: exhibition__date;
+    }
+
+    &__location {
+        grid-area: exhibition__location;
+    }
+
+    &__price {
+        grid-area:exhibition__price;
     }
 
     &__content {
@@ -150,11 +164,97 @@
 
 // Responsive Design
 
-@media only screen and (max-width: 600px) {
-    
+// Workaround for using variables in @media queries
+// See https://stackoverflow.com/questions/40722882/css-native-variables-not-working-in-media-queries
+// TBD: Replace by css environment variables (env()). See https://developer.mozilla.org/en-US/docs/Web/CSS/env
+$spacing-6: 24px;
+
+@media only screen and (max-width: 600px) {   
     .hero {
+        height: auto;
         padding-top: 0;
         padding-left: 0;
         padding-right: 0;
     }
-} 
+}
+
+@media only screen and (max-width: 1000px) {
+    .intro {
+        grid-template-columns: 2fr 1fr;
+        grid-gap: var(--spacing-6);
+
+        &__about {
+            padding: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .intro {
+        grid-template-columns: repeat(1, 1fr);
+
+        &__image {
+            height: 50vw;
+        }
+    }
+}
+
+@media only screen and (max-width: calc(3 * #{$spacing-6} + 800px)) {
+   // 24px | <400px project> | 24px <400px project> | 24px = 872px
+    .project {
+        &__image {
+            height: auto;
+        }
+    }
+}
+
+@media only screen and (max-width: calc(2 * #{$spacing-6} + 600px)) {
+    .exhibitions {
+        grid-template-columns: 1fr;
+    }
+
+    .exhibition {
+        &__info {
+            grid-template-columns: 2fr 1fr;
+            grid-template-areas:
+                "exhibition__date exhibition__location"
+                "exhibition__price exhibition__location";
+        }
+    }
+}
+
+@media only screen and (max-width: calc(2 * #{$spacing-6} + 550px)) {
+    .exhibition {
+        &__info {
+            padding-top: var(--spacing-6);
+            grid-template-columns: 1fr;
+            grid-template-areas:
+                "exhibition__date"
+                "exhibition__location"
+                "exhibition__price";
+        }
+
+        &__tag {
+            padding: 0 var(--spacing-6);
+            border-bottom: 0;
+        }
+
+        &__content {
+            padding-top: var(--spacing-6);
+        }
+    }
+
+    .contact {
+        // Deep-Selector workaround
+        p {
+            font-size: 1.6rem;
+            color: white;
+    
+            a {
+                color: white;
+                font-weight: 500;
+                text-decoration: underline white !important;
+            }
+        }
+    }
+}

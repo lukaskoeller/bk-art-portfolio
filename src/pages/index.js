@@ -72,9 +72,9 @@ const IndexPage = ({ data }) => {
           return (
             <div className="exhibition" key={node.id}>
               <div className="exhibition__info">
-                <div className="exhibition__tag">{node.frontmatter.dateText}</div>
-                <div className="exhibition__tag">{node.frontmatter.location}</div>
-                <div className="exhibition__tag">{node.frontmatter.price}</div>
+                <div className="exhibition__tag exhibition__date">{node.frontmatter.dateText}</div>
+                <div className="exhibition__tag exhibition__location">{node.frontmatter.location}</div>
+                <div className="exhibition__tag exhibition__price">{node.frontmatter.price}</div>
               </div>
               <div className="exhibition__content">
                 <h3 className="exhibition__headline">{node.frontmatter.title}</h3>
