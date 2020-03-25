@@ -5,18 +5,18 @@
  */
 
 // Styles
-import './src/styles/_base.scss'
+require('./src/styles/_base.scss')
 
-// const anchorate = require('anchorate')
+// Packages
+const { anchorate } = require('anchorate')
 
-// exports.onRouteUpdate = () => {
-//   anchorate()
-// }
-
-// exports.onRouteUpdate = (location) => {
-//   if (location.hash) {
-//     setTimeout(() => {
-//       document.querySelector(`${location.hash}`).scrollIntoView()
-//     }, 0)
-//   }
-// }
+// Scroll to anchor link (e.g '/#anchor-id')
+exports.onRouteUpdate = () => {
+  anchorate({
+    scroller: function (element) {
+      if (!element) return false
+      element.scrollIntoView({ behavior: 'smooth' })
+      return true
+    }
+  })
+}
