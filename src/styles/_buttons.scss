@@ -21,6 +21,7 @@ button,
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
+  margin: 0;
 
   &:hover {
     background-color: var(--primary-color);
