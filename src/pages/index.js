@@ -26,6 +26,7 @@ const IndexPage = ({ data }) => {
       })
       console.log('Successfully shared event')
     } catch (err) {
+      window.open(`https://wa.me/?text=${encodeURI(`${title} - ${text} | ${url} `)}`)
       console.log(`Error: ${err}`)
     }
   }
@@ -81,7 +82,7 @@ const IndexPage = ({ data }) => {
                 <p className="exhibition__desc">{node.frontmatter.description}</p>
               </div>
               <div className="exhibition__checkout">
-                <div className="exhibition__btn" onClick={shareEvent('https://bk-art.de', node.frontmatter.title, `Kunstausstellung von Bärbel Köller | ${node.frontmatter.dateText} | ${node.frontmatter.location}`)}>Teilen</div>
+                <div className="exhibition__btn" onClick={() => shareEvent('https://bk-art.netlify.com', node.frontmatter.title, `Kunstausstellung von Bärbel Köller | ${node.frontmatter.dateText} | ${node.frontmatter.location}`)}>Teilen</div>
                 {/* <div className="exhibition__btn">Zum Kalender hinzufügen</div> */}
               </div>
             </div>

@@ -10,38 +10,80 @@ import PageHeader from '../components/pageheader'
 import Container from '../components/container'
 import Article from '../components/article'
 
-const ProjectTemplate = ({ data, pageContext }) => {
-  const project = data.markdownRemark
-  const { previous, next } = pageContext
+// Styles
+import './project.scss'
 
-  return (
-    <Layout theme="dark" title={project.frontmatter.title}>
-      <SEO title={project.frontmatter.title} description={project.frontmatter.description || project.excerpt} />
-      <PageHeader>
-        <Img className="page-header__image" fluid={project.frontmatter.coverImage.childImageSharp.fluid} imgStyle={{ objectFit: 'contain' }} />
-        <div className="page-header__nav">
-          {previous && (
-            <Link to={previous.fields.slug} className="page-header__nav-left" rel="prev">
-                ← {previous.frontmatter.title}
-            </Link>
-          )}
-          <div>{project.frontmatter.title}</div>
-          {next && (
-            <Link to={next.fields.slug} className="page-header__nav-right" rel="next">
-              {next.frontmatter.title} →
-            </Link>
-          )}
-        </div>
-      </PageHeader>
-      <Container>
-        <Article>
-          <h1 className="article__headline">{project.frontmatter.title}</h1>
-          <div dangerouslySetInnerHTML={{ __html: project.html }}>
+class ProjectTemplate extends React.Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      scaleImageStyle: { height: '100vh', minHeight: '100vh' },
+      data: props.data,
+      project: props.data.markdownRemark,
+      previous: props.pageContext.previous,
+      next: props.pageContext.next,
+      scale: true
+    }
+
+    this.scaleImage = this.scaleImage.bind(this)
+  }
+
+  async shareEvent (url, title, text) {
+    try {
+      await navigator.share({
+        url: url,
+        title: title,
+        text: text
+      })
+      console.log('Successfully shared event')
+    } catch (err) {
+      window.open(`https://wa.me/?text=${encodeURI(`${title} - ${text} | ${url} `)}`)
+      console.log(`Error: ${err}`)
+    }
+  }
+
+  scaleImage () {
+    this.setState({
+      scale: !this.state.scale,
+      scaleImageStyle: this.state.scale ? { height: 'auto' } : { height: '100vh' }
+    })
+    console.log(this.state.scaleImageStyle)
+  }
+
+  render () {
+    return (
+      <Layout theme="dark">
+        <SEO title={this.state.project.frontmatter.title} description={this.state.project.frontmatter.description || this.state.project.excerpt} />
+        <PageHeader scaleImage={this.state.scaleImageStyle} onClick={this.scaleImage}>
+          <Img className="page-header__image" fluid={this.state.project.frontmatter.coverImage.childImageSharp.fluid} imgStyle={{ objectFit: 'contain' }} />
+          <div className="page-header__nav">
+            {this.state.previous && (
+              <Link to={this.state.previous.fields.slug} className="page-header__nav-left" rel="prev">
+                  ← {this.state.previous.frontmatter.title}
+              </Link>
+            )}
+            <div>{this.state.project.frontmatter.title}</div>
+            {this.state.next && (
+              <Link to={this.state.next.fields.slug} className="page-header__nav-right" rel="next">
+                {this.state.next.frontmatter.title} →
+              </Link>
+            )}
           </div>
-        </Article>
-      </Container>
-    </Layout>
-  )
+        </PageHeader>
+        <div className="info-bar">
+          <button className="btn info-bar__btn" onClick={() => this.shareEvent('https://bk-art.netlify.com', this.state.project.frontmatter.title, 'Gemälde von Bärbel Köller')}>Teilen</button>
+          <a className="btn info-bar__btn" href={`mailto:hallo@bk-art.netlify.com?subject=${encodeURI(`Kaufanfrage: ${this.state.project.frontmatter.title}`)}`}>Kaufanfrage</a>
+        </div>
+        <Container>
+          <Article>
+            <h1 className="article__headline">{this.state.project.frontmatter.title}</h1>
+            <div dangerouslySetInnerHTML={{ __html: this.state.project.html }}>
+            </div>
+          </Article>
+        </Container>
+      </Layout>
+    )
+  }
 }
 
 export default ProjectTemplate

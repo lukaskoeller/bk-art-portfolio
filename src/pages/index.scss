@@ -169,7 +169,7 @@
 // TBD: Replace by css environment variables (env()). See https://developer.mozilla.org/en-US/docs/Web/CSS/env
 $spacing-6: 24px;
 
-@media only screen and (max-width: 600px) {   
+@media screen and (max-width: 600px), screen and (orientation: portrait) {   
     .hero {
         height: auto;
         padding-top: 0;
