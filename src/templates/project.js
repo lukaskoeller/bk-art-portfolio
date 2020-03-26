@@ -32,7 +32,7 @@ const ProjectTemplate = ({ data, pageContext }) => {
   }
 
   return (
-    <Layout theme="dark" title={project.frontmatter.title}>
+    <Layout theme="dark">
       <SEO title={project.frontmatter.title} description={project.frontmatter.description || project.excerpt} />
       <PageHeader>
         <Img className="page-header__image" fluid={project.frontmatter.coverImage.childImageSharp.fluid} imgStyle={{ objectFit: 'contain' }} />
