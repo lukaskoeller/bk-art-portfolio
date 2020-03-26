@@ -10,9 +10,26 @@ import PageHeader from '../components/pageheader'
 import Container from '../components/container'
 import Article from '../components/article'
 
+// Styles
+import './project.scss'
+
 const ProjectTemplate = ({ data, pageContext }) => {
   const project = data.markdownRemark
   const { previous, next } = pageContext
+
+  async function shareEvent (url, title, text) {
+    try {
+      await navigator.share({
+        url: url,
+        title: title,
+        text: text
+      })
+      console.log('Successfully shared event')
+    } catch (err) {
+      window.open(`https://wa.me/?text=${encodeURI(`${title} - ${text} | ${url} `)}`)
+      console.log(`Error: ${err}`)
+    }
+  }
 
   return (
     <Layout theme="dark" title={project.frontmatter.title}>
@@ -33,6 +50,10 @@ const ProjectTemplate = ({ data, pageContext }) => {
           )}
         </div>
       </PageHeader>
+      <div className="info-bar">
+        <button className="btn info-bar__btn" onClick={() => shareEvent('https://bk-art.netlify.com', project.frontmatter.title, 'Gemälde von Bärbel Köller')}>Teilen</button>
+        <a className="btn info-bar__btn" href={`mailto:hallo@bk-art.netlify.com?subject=${encodeURI(`Kaufanfrage: ${project.frontmatter.title}`)}`}>Kaufanfrage</a>
+      </div>
       <Container>
         <Article>
           <h1 className="article__headline">{project.frontmatter.title}</h1>
