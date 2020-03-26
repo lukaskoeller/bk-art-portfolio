@@ -30,7 +30,7 @@
 
         &-left, &-right {
             padding: var(--spacing-4) var(--spacing-6);
-            color: rgba(white,0.2);
+            color: rgba(white,1);
             transition: var(--duration) var(--timing);
 
             &:hover {
