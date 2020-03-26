@@ -2,6 +2,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
+    min-height: 100vh;
     margin: 0 auto;
     padding: var(--spacing-section) var(--spacing-6);
     padding-bottom: var(--spacing-15);
@@ -59,5 +60,6 @@
     &__image {
         width: auto;
         height: 100%;
+        cursor: pointer;
     }
 }

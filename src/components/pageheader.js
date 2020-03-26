@@ -4,18 +4,21 @@ import React from 'react'
 // Styles
 import './pageheader.scss'
 
-const PageHeader = ({ children }) => (
-  <div className="page-header">
+const PageHeader = ({ children, scaleImage, onClick }) => (
+  <div className="page-header" style={scaleImage} onClick={onClick}>
     {children}
   </div>
 )
 
 PageHeader.propTypes = {
-  children: PropTypes.node.required
+  children: PropTypes.node.required,
+  scaleImage: PropTypes.node,
+  onClick: PropTypes.func
 }
 
 PageHeader.defaultProps = {
-  siteTitle: ''
+  siteTitle: '',
+  scaleImage: {}
 }
 
 export default PageHeader
