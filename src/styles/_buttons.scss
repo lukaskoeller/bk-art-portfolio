@@ -1,12 +1,12 @@
-button,
-[type="button"],
-[type="reset"],
-[type="submit"],
+// button,
+// [type="button"],
+// [type="reset"],
+// [type="submit"],
 .btn {
   appearance: none;
-  background-color: white;
   border: 2px solid var(--primary-color);
   border-radius: 0;
+  background-color: transparent;
   color: var(--primary-color);
   cursor: pointer;
   display: inline-block;
@@ -17,7 +17,7 @@ button,
   padding: var(--spacing-3) var(--spacing-4);
   text-align: center;
   text-decoration: none;
-  transition: background-color var(--duration) var(--timing);
+  transition: all var(--duration) var(--timing);
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
@@ -35,5 +35,15 @@ button,
   &:disabled {
     cursor: not-allowed;
     opacity: 0.5;
+  }
+
+  &--light {
+    border: 2px solid white;
+    color: white;
+
+    &:hover {
+      background-color: white;
+      color: var(--primary-color);
+    }
   }
 }
