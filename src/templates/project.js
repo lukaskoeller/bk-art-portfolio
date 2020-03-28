@@ -42,7 +42,7 @@ class ProjectTemplate extends React.Component {
   scaleImage () {
     this.setState({
       scale: !this.state.scale,
-      scaleImageStyle: this.state.scale ? { height: 'auto' } : { height: '100vh' }
+      scaleImageStyle: this.state.scale ? { height: 'auto', cursor: 'zoom-out' } : { height: '100vh' }
     })
     console.log(this.state.scaleImageStyle)
   }
@@ -56,7 +56,7 @@ class ProjectTemplate extends React.Component {
           <div className="page-header__nav">
             {this.state.previous && (
               <Link to={this.state.previous.fields.slug} className="page-header__nav-left" rel="prev">
-                  ← {this.state.previous.frontmatter.title}
+                  ← <span className="page-header__nav-name">{this.state.previous.frontmatter.title}</span>
               </Link>
             )}
             <div className="info-bar">
@@ -65,7 +65,7 @@ class ProjectTemplate extends React.Component {
             </div>
             {this.state.next && (
               <Link to={this.state.next.fields.slug} className="page-header__nav-right" rel="next">
-                {this.state.next.frontmatter.title} →
+                <span className="page-header__nav-name">{this.state.next.frontmatter.title}</span> →
               </Link>
             )}
           </div>
