@@ -50,7 +50,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## 💫 Deploy
 
-This site was deployed to Netlify and is avaible under [bk-art.netlify.com](https://bk-art.netlify.com).
+This site was deployed to Netlify and is available under [bk-art.netlify.com](https://bk-art.netlify.com).
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
 
