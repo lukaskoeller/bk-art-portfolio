@@ -1,6 +1,4 @@
 .footer {
-    max-width: 100%;
-    overflow: hidden;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -22,6 +20,8 @@
 
     &__notes {
         flex-shrink: 1;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     &__item {

@@ -1,37 +1,38 @@
 .page-header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     position: relative;
     width: 100%;
     height: 100vh;
     min-height: 100vh;
     margin: 0 auto;
     padding: var(--spacing-section) var(--spacing-6);
-    padding-bottom: var(--spacing-15);
+    padding-bottom: var(--spacing-4);
     background-color: var(--primary-color);
-    //overflow: hidden;
+    cursor: zoom-in;
 
     &__nav {
-        position: absolute;
+        position: relative;
         width: 100%;
-        content: "";
-        bottom: 0;
-        left: 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: auto;
+        cursor: default;
         // padding-bottom: env(safe-area-inset-bottom, var(--spacing-2));
-        padding-bottom: var(--spacing-3);
+        // padding-bottom: var(--spacing-4);
 
         &-left {
-            justify-self: flex-start;
-
+            width: 220px;
+            word-break: break-word;
+            text-align: left;
         }
 
         &-right {
-            justify-self: flex-end;
+            width: 220px;
+            word-break: break-word;
+            text-align: right;
         }
 
         &-left, &-right {
@@ -63,8 +64,41 @@
     }
 
     &__image {
+        flex-grow: 1;
         width: auto;
         height: 100%;
-        cursor: pointer;
+        // cursor: pointer;
+    }
+}
+
+.info-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: var(--spacing-3);
+    padding: var(--spacing-4) var(--spacing-6);
+
+    &__btn {
+        margin: 0 var(--spacing-1);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .info-bar {
+        &__btn {
+            padding-left: var(--spacing);
+            padding-right: var(--spacing);
+            border: 0;
+            // border-bottom: 3px solid white;
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .page-header {
+        &__nav {
+            &-name {
+                display: none;
+            }
+        }
     }
 }

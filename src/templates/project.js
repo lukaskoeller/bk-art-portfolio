@@ -10,9 +10,6 @@ import PageHeader from '../components/pageheader'
 import Container from '../components/container'
 import Article from '../components/article'
 
-// Styles
-import './project.scss'
-
 class ProjectTemplate extends React.Component {
   constructor (props) {
     super(props)
@@ -45,7 +42,7 @@ class ProjectTemplate extends React.Component {
   scaleImage () {
     this.setState({
       scale: !this.state.scale,
-      scaleImageStyle: this.state.scale ? { height: 'auto' } : { height: '100vh' }
+      scaleImageStyle: this.state.scale ? { height: 'auto', cursor: 'zoom-out' } : { height: '100vh' }
     })
     console.log(this.state.scaleImageStyle)
   }
@@ -59,21 +56,20 @@ class ProjectTemplate extends React.Component {
           <div className="page-header__nav">
             {this.state.previous && (
               <Link to={this.state.previous.fields.slug} className="page-header__nav-left" rel="prev">
-                  ← {this.state.previous.frontmatter.title}
+                  ← <span className="page-header__nav-name">{this.state.previous.frontmatter.title}</span>
               </Link>
             )}
-            <div>{this.state.project.frontmatter.title}</div>
+            <div className="info-bar">
+              <button className="btn btn--light info-bar__btn" onClick={() => this.shareEvent('https://bk-art.netlify.com', this.state.project.frontmatter.title, 'Gemälde von Bärbel Köller')}>Teilen</button>
+              <a className="btn btn--light info-bar__btn" href={`mailto:hallo@bk-art.netlify.com?subject=${encodeURI(`Kaufanfrage: ${this.state.project.frontmatter.title}`)}`}>Kaufanfrage</a>
+            </div>
             {this.state.next && (
               <Link to={this.state.next.fields.slug} className="page-header__nav-right" rel="next">
-                {this.state.next.frontmatter.title} →
+                <span className="page-header__nav-name">{this.state.next.frontmatter.title}</span> →
               </Link>
             )}
           </div>
         </PageHeader>
-        <div className="info-bar">
-          <button className="btn info-bar__btn" onClick={() => this.shareEvent('https://bk-art.netlify.com', this.state.project.frontmatter.title, 'Gemälde von Bärbel Köller')}>Teilen</button>
-          <a className="btn info-bar__btn" href={`mailto:hallo@bk-art.netlify.com?subject=${encodeURI(`Kaufanfrage: ${this.state.project.frontmatter.title}`)}`}>Kaufanfrage</a>
-        </div>
         <Container>
           <Article>
             <h1 className="article__headline">{this.state.project.frontmatter.title}</h1>
