@@ -44,7 +44,6 @@ class ProjectTemplate extends React.Component {
       scale: !this.state.scale,
       scaleImageStyle: this.state.scale ? { height: 'auto', cursor: 'zoom-out' } : { height: '100vh' }
     })
-    console.log(this.state.scaleImageStyle)
   }
 
   render () {
