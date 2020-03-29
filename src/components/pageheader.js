@@ -4,8 +4,8 @@ import React from 'react'
 // Styles
 import './pageheader.scss'
 
-const PageHeader = ({ children, scaleImage, onClick }) => (
-  <div className="page-header" style={scaleImage} onClick={onClick}>
+const PageHeader = ({ children, scaleImage, onClick, style }) => (
+  <div className="page-header" style={{ ...scaleImage, ...style }} onClick={onClick}>
     {children}
   </div>
 )
@@ -13,12 +13,14 @@ const PageHeader = ({ children, scaleImage, onClick }) => (
 PageHeader.propTypes = {
   children: PropTypes.node.required,
   scaleImage: PropTypes.node,
-  onClick: PropTypes.func
+  onClick: PropTypes.func,
+  style: PropTypes.object
 }
 
 PageHeader.defaultProps = {
   siteTitle: '',
-  scaleImage: {}
+  scaleImage: {},
+  style: {}
 }
 
 export default PageHeader
