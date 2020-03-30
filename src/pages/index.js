@@ -126,7 +126,7 @@ export const pageQuery = graphql`
     }
     exhibitions: allMarkdownRemark(
       filter: {fileAbsolutePath: {regex: "/(\/content\/exhibitions)/.*\\.md$/"}}
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___title], order: DESC }
     ) {
       edges {
         node {
