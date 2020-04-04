@@ -18,7 +18,7 @@ const AboutPage = ({ data }) => {
 
   return (
     <Layout theme="dark">
-      <SEO title="About" description={about.frontmatter.description} />
+      <SEO title="Künstler" description={about.frontmatter.description} />
       <PageHeader style={{ justifyContent: 'center' }}>
         <h1 className="page-header__headline">{about.frontmatter.title}</h1>
         <p className="page-header__desc">{about.frontmatter.description}</p>
