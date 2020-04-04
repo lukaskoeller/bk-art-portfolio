@@ -64,9 +64,15 @@
         text-align: center;
     }
 
-    &__image {
+    &__image-container {
         flex-grow: 1;
         width: auto;
+        height: auto;
+        display: flex; // Fixes Bug that makes <Img className="page-header__image /> overflow vertically.
+        flex-direction: column;
+    }
+
+    &__image {
         height: 100%;
         // cursor: pointer;
     }
