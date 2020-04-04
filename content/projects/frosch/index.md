@@ -5,7 +5,7 @@ date: "2020-03-13T22:00:00.284Z"
 coverImage: ./painting-5.jpg
 ---
 
-| Stil            | Maße    | Preis |
+| Technik            | Maße    | Preis |
 |-----------------|---------|-------|
 | Aquarell        | 24x32cm | 80€   |
 

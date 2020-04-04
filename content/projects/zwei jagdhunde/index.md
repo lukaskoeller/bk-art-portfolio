@@ -5,7 +5,7 @@ date: "2020-03-13T22:00:00.284Z"
 coverImage: ./painting-4.jpg
 ---
 
-| Stil                        | Maße    | Preis |
+| Technik                        | Maße    | Preis |
 |-----------------------------|---------|-------|
 | Öl auf leinenartigem Papier | 24x33cm | 130€  |
 
