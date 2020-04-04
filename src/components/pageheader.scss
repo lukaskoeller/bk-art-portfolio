@@ -70,6 +70,8 @@
         height: auto;
         display: flex; // Fixes Bug that makes <Img className="page-header__image /> overflow vertically.
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     &__image {
