@@ -50,8 +50,10 @@ class ProjectTemplate extends React.Component {
     return (
       <Layout theme="dark">
         <SEO title={this.state.project.frontmatter.title} description={this.state.project.frontmatter.description || this.state.project.excerpt} />
-        <PageHeader scaleImage={this.state.scaleImageStyle} onClick={this.scaleImage}>
-          <Img className="page-header__image" fluid={this.state.project.frontmatter.coverImage.childImageSharp.fluid} imgStyle={{ objectFit: 'contain' }} />
+        <PageHeader scaleImage={this.state.scaleImageStyle}>
+          <div className="page-header__image-container" onClick={this.scaleImage}>
+            <Img className="page-header__image" fluid={this.state.project.frontmatter.coverImage.childImageSharp.fluid} imgStyle={{ objectFit: 'contain' }} />
+          </div>
           <div className="page-header__nav">
             {this.state.previous && (
               <Link to={this.state.previous.fields.slug} className="page-header__nav-left" rel="prev">
