@@ -1,6 +1,6 @@
 ---
 title: "Muschel"
-description: "The first painting is called berber."
+description: "Gemälde 'Muschel' von Bärbel Köller."
 coverImage: ./painting-20.jpg
 ---
 

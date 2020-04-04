@@ -1,6 +1,6 @@
 ---
 title: "Fische"
-description: "The first painting is called berber."
+description: "Gemälde 'Fische' von Bärbel Köller."
 coverImage: ./painting-1.jpg
 ---
 

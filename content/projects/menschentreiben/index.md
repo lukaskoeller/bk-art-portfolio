@@ -1,6 +1,6 @@
 ---
 title: "Menschentreiben"
-description: "The first painting is called berber."
+description: "Gemälde 'Menschentreiben' von Bärbel Köller."
 coverImage: ./painting-16.jpg
 ---
 

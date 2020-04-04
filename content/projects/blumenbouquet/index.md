@@ -1,6 +1,6 @@
 ---
 title: "Blumenbouquet"
-description: "The first painting is called berber."
+description: "Gemälde 'Blumenbouquet' von Bärbel Köller."
 coverImage: ./painting-11.jpg
 ---
 

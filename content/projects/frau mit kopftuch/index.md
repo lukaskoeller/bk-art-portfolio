@@ -1,6 +1,6 @@
 ---
 title: "Frau mit Kopftuch"
-description: "The first painting is called berber."
+description: "Gemälde 'Frau mit Kopftuch' von Bärbel Köller."
 coverImage: ./painting-31.jpg
 ---
 

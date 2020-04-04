@@ -1,6 +1,6 @@
 ---
 title: "Frau mit rotem Stirnband"
-description: "The first painting is called berber."
+description: "Gemälde 'Frau mit rotem Stirnband' von Bärbel Köller."
 coverImage: ./painting-30.jpg
 ---
 

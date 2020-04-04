@@ -1,6 +1,6 @@
 ---
 title: "Landstreicher"
-description: "The first painting is called berber."
+description: "Gemälde 'Landstreicher' von Bärbel Köller."
 coverImage: ./painting-32.jpg
 ---
 

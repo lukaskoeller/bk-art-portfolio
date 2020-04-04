@@ -1,6 +1,6 @@
 ---
 title: "Metamorphose"
-description: "The first painting is called berber."
+description: "Gemälde 'Metamorphose' von Bärbel Köller."
 coverImage: ./painting-23.jpg
 ---
 

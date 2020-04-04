@@ -1,6 +1,6 @@
 ---
 title: "Junge Frau aus Äthiopien"
-description: "The first painting is called berber."
+description: "Gemälde 'Junge Frau aus Äthiopien' von Bärbel Köller."
 coverImage: ./painting-34.jpg
 ---
 

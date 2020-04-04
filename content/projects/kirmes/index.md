@@ -1,6 +1,6 @@
 ---
 title: "Kirmes"
-description: "The first painting is called berber."
+description: "Gemälde 'Kirmes' von Bärbel Köller."
 coverImage: ./painting-17.jpg
 ---
 

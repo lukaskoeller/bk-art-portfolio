@@ -1,6 +1,6 @@
 ---
 title: "Blüte in hellblau"
-description: "The first painting is called berber."
+description: "Gemälde 'Blüte in hellblau' von Bärbel Köller."
 coverImage: ./painting-14.jpg
 ---
 

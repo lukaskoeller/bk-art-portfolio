@@ -1,6 +1,6 @@
 ---
 title: "Exotische Frau"
-description: "The first painting is called berber."
+description: "Gemälde 'Exotische Frau' von Bärbel Köller."
 coverImage: ./painting-29.jpg
 ---
 

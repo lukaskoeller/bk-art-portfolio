@@ -1,6 +1,6 @@
 ---
 title: "Junge"
-description: "The second painting is called junge."
+description: "Gemälde 'Junge' von Bärbel Köller"
 coverImage: "./painting-8.jpg"
 ---
 

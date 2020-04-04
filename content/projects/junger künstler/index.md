@@ -1,6 +1,6 @@
 ---
 title: "Junger Künstler"
-description: "The first painting is called berber."
+description: "Gemälde 'Junger Künstler' von Bärbel Köller."
 coverImage: ./painting-36.jpg
 ---
 

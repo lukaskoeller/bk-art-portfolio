@@ -1,6 +1,6 @@
 ---
 title: "Tanzschuhe"
-description: "The second painting is called junge."
+description: "Gemälde 'Tanzschuhe' von Bärbel Köller."
 coverImage: "./painting-7.jpg"
 ---
 

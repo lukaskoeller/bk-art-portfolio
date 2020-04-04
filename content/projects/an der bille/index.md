@@ -1,6 +1,6 @@
 ---
 title: "An der Bille"
-description: "The first painting is called berber."
+description: "Gemälde 'An der Bille' von Bärbel Köller."
 coverImage: ./painting-15.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Frühlingsimpression"
-description: "The first painting is called berber."
+description: "Gemälde 'Frühlingsimpression' von Bärbel Köller."
 coverImage: ./painting-21.jpg
 ---
 

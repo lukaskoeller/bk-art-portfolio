@@ -1,6 +1,6 @@
 ---
 title: "Farbklang"
-description: "The first painting is called berber."
+description: "Gemälde 'Farbklang' von Bärbel Köller."
 coverImage: ./painting-13.jpg
 ---
 

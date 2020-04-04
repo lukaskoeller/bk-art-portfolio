@@ -1,6 +1,6 @@
 ---
 title: "Turnschuhe"
-description: "The first painting is called berber."
+description: "Gemälde 'Turnschuhe' von Bärbel Köller."
 coverImage: ./painting-24.jpg
 ---
 

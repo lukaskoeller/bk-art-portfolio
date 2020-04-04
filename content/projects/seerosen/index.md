@@ -1,6 +1,6 @@
 ---
 title: "Seerosen"
-description: "The first painting is called berber."
+description: "Gemälde 'Seerosen' von Bärbel Köller."
 coverImage: ./painting-18.jpg
 ---
 

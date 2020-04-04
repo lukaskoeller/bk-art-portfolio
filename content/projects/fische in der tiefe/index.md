@@ -1,6 +1,6 @@
 ---
 title: "Fische in der Tiefe"
-description: "The first painting is called berber."
+description: "Gemälde 'Fische in der Tiefe' von Bärbel Köller."
 coverImage: ./painting-10.jpg
 ---
 

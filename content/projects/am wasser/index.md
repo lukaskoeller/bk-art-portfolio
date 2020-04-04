@@ -1,6 +1,6 @@
 ---
 title: "Am Wasser"
-description: "The first painting is called berber."
+description: "Gemälde 'Am Wasser' von Bärbel Köller."
 coverImage: ./painting-12.jpg
 ---
 

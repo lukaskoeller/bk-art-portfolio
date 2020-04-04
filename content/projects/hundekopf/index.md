@@ -1,6 +1,6 @@
 ---
 title: "Hundekopf"
-description: "The second painting is called junge."
+description: "Gemälde 'Hundekopf' von Bärbel Köller."
 coverImage: "./painting-6.jpg"
 ---
 

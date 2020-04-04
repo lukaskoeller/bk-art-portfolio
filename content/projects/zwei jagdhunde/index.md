@@ -1,6 +1,6 @@
 ---
 title: "Zwei Jagdhunde"
-description: "The first painting is called berber."
+description: "Gemälde 'Zwei Jagdhunde' von Bärbel Köller."
 coverImage: ./painting-4.jpg
 ---
 

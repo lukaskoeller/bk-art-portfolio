@@ -1,6 +1,6 @@
 ---
 title: "Landschaft mit Birkenstämmen"
-description: "The first painting is called berber."
+description: "Gemälde 'Landschaft mit Birkenstämmen' von Bärbel Köller."
 coverImage: ./painting-22.jpg
 ---
 

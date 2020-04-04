@@ -1,6 +1,6 @@
 ---
 title: "Die Musikerin"
-description: "The first painting is called berber."
+description: "Gemälde 'Die Musikerin' von Bärbel Köller."
 coverImage: ./painting-35.jpg
 ---
 

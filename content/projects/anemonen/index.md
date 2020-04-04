@@ -1,6 +1,6 @@
 ---
 title: "Anemonen"
-description: "The first painting is called berber."
+description: "Gemälde 'Anemonen' von Bärbel Köller."
 coverImage: ./painting-25.jpg
 ---
 

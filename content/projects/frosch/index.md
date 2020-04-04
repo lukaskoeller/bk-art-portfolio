@@ -1,6 +1,6 @@
 ---
 title: "Frosch"
-description: "The first painting is called berber."
+description: "Gemälde 'Frosch' von Bärbel Köller."
 coverImage: ./painting-5.jpg
 ---
 

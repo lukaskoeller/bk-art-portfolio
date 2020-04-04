@@ -1,6 +1,6 @@
 ---
 title: "Rabbi"
-description: "The first painting is called berber."
+description: "Gemälde 'Rabbi' von Bärbel Köller."
 coverImage: ./painting-26.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Schauspieler"
-description: "The first painting is called berber."
+description: "Gemälde 'Schauspieler' von Bärbel Köller."
 coverImage: ./painting-33.jpg
 ---
 

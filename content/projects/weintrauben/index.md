@@ -1,6 +1,6 @@
 ---
 title: "Weintrauben"
-description: "The first painting is called berber."
+description: "Gemälde 'Weintrauben' von Bärbel Köller."
 coverImage: ./painting-3.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Berber"
-description: "The first painting is called berber."
+description: "Gemälde 'Berber' von Bärbel Köller."
 coverImage: ./painting-2.jpg
 ---
 

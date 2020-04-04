@@ -1,6 +1,6 @@
 ---
 title: "Herbstimpression"
-description: "The first painting is called berber."
+description: "Gemälde 'Herbstimpression' von Bärbel Köller."
 coverImage: ./painting-19.jpg
 ---
 

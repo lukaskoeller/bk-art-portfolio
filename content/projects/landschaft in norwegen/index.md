@@ -1,6 +1,6 @@
 ---
 title: "Landschaft in Norwegen"
-description: "The first painting is called berber."
+description: "Gemälde 'Landschaft in Norwegen' von Bärbel Köller."
 coverImage: ./painting-37.jpg
 ---
 
