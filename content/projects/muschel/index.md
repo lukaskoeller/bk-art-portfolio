@@ -5,9 +5,9 @@ date: "2020-03-13T22:00:00.284Z"
 coverImage: ./painting-20.jpg
 ---
 
-| Type            | Size    | Price |
-|-----------------|---------|-------|
-| Öl auf Malpappe | 25x25cm | 130€  |
+| Technik            | Maße    | Preis |
+|--------------------|---------|-------|
+| Acryl auf Leinwand | 60x90cm | 180€  |
 
 ## Story
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.

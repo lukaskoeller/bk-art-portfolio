@@ -5,7 +5,7 @@ date: "2020-03-13T22:00:00.284Z"
 coverImage: ./painting-25.jpg
 ---
 
-| Type            | Size    | Price |
+| Technik            | Maße    | Preis |
 |-----------------|---------|-------|
 | Öl auf Malpappe | 25x25cm | 130€  |
 
