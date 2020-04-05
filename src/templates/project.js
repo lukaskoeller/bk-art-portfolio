@@ -55,12 +55,12 @@ class ProjectTemplate extends React.Component {
           <div className="page-header__nav">
             {(this.state.previous
               ? (
-                <Link to={this.state.previous.fields.slug} className="page-header__nav-right" rel="previous">
+                <Link to={this.state.previous.fields.slug} className="page-header__nav-left" rel="previous">
                   ←
                   {/* <span className="page-header__nav-name">{this.state.previous.frontmatter.title}</span> */}
                 </Link>
               ) : (
-                <div className="page-header__nav--disabled">←</div>
+                <div className="page-header__nav-left page-header__nav--disabled">←</div>
               )
             )}
             <div className="info-bar">
@@ -77,7 +77,7 @@ class ProjectTemplate extends React.Component {
                   {/* <span className="page-header__nav-name">{this.state.next.frontmatter.title}</span> */}
                 </Link>
               ) : (
-                <div className="page-header__nav--disabled">→</div>
+                <div className="page-header__nav-right page-header__nav--disabled">→</div>
               )
             )}
           </div>
