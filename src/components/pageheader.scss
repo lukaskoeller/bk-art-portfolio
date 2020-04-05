@@ -24,13 +24,11 @@
         // padding-bottom: var(--spacing-4);
 
         &-left {
-            width: 220px;
             word-break: break-word;
             text-align: left;
         }
 
         &-right {
-            width: 220px;
             word-break: break-word;
             text-align: right;
         }
@@ -43,6 +41,11 @@
             &:hover {
                 color: rgba(white,1);
             }
+        }
+
+        &--disabled {
+            padding: var(--spacing-4) var(--spacing-6);
+            color: rgba(white,0.4);
         }
     }
 

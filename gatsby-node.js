@@ -16,7 +16,7 @@ exports.createPages = async ({ graphql, actions }) => {
       {
         allMarkdownRemark(
           filter: {fileAbsolutePath: {regex: "/(\\\\/content\\\\/projects)/.*\\\\.md$/"}}
-          sort: { fields: [frontmatter___date], order: DESC }
+          sort: { fields: [frontmatter___date], order: ASC }
           limit: 1000
         ) {
           edges {
@@ -42,8 +42,8 @@ exports.createPages = async ({ graphql, actions }) => {
   const projects = result.data.allMarkdownRemark.edges
 
   projects.forEach((project, index) => {
-    const previous = index === projects.length - 1 ? null : projects[index + 1].node
-    const next = index === 0 ? null : projects[index - 1].node
+    const previous = index === 0 ? null : projects[index - 1].node
+    const next = index === projects.length - 1 ? null : projects[index + 1].node
 
     createPage({
       path: project.node.fields.slug,
