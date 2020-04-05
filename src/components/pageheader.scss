@@ -10,7 +10,6 @@
     padding: var(--spacing-section) var(--spacing-6);
     padding-bottom: var(--spacing-4);
     background-color: var(--primary-color);
-    cursor: zoom-in;
 
     &__nav {
         position: relative;
@@ -64,30 +63,29 @@
         text-align: center;
     }
 
-    &__image-container {
-        flex-grow: 1;
-        width: auto;
-        height: auto;
-        display: flex; // Fixes Bug that makes <Img className="page-header__image /> overflow vertically.
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
     &__image {
-        height: 100%;
+        flex-grow: 1;
+        // height: 100%;
         // cursor: pointer;
     }
 }
 
 .info-bar {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr) auto;
     grid-gap: var(--spacing-3);
     padding: var(--spacing-4) var(--spacing-6);
 
     &__btn {
         margin: 0 var(--spacing-1);
+
+        svg path {
+            transition: var(--duration) var(--timing);
+        }
+
+        &:hover svg path {
+            fill: var(--primary-color);
+        }
     }
 }
 
