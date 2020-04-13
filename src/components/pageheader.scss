@@ -105,6 +105,10 @@
     &__misc {
         display: flex;
         justify-content: flex-end;
+
+        & .btn:first-child {
+            margin-left: 0;
+        }
     }
 
     &__btn {
@@ -135,6 +139,17 @@
 }
 
 @media only screen and (max-width: 500px) {
+    .page-header {
+        
+        &__image-container {
+            height: auto;
+        }
+
+        &__info {
+            padding: var(--spacing-6) 0;
+            padding-bottom: 0;
+        }
+    }
     .info-bar {
         flex-direction: column-reverse;
 
@@ -146,9 +161,13 @@
 
         &__misc {
             width: 100%;
+        }
+        
+        &__btn {
+            flex: 1;
 
-            .info-bar__btn {
-                flex: 1;
+            &-scale {
+                display: none;
             }
         }
     }
