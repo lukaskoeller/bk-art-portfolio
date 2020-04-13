@@ -63,22 +63,22 @@ class ProjectTemplate extends React.Component {
                 <div className="info-bar__nav">
                   {(this.state.previous
                     ? (
-                      <Link to={this.state.previous.fields.slug} className="info-bar__nav-left btn btn--light info-bar__btn" rel="previous">
+                      <Link to={this.state.previous.fields.slug} className="btn btn--light info-bar__btn" rel="previous">
                   ←
                         {/* <span className="page-header__nav-name">{this.state.previous.frontmatter.title}</span> */}
                       </Link>
                     ) : (
-                      <div className="info-bar__nav-left info-bar__btn info-bar__nav--disabled">←</div>
+                      <div className="btn btn--light btn--disabled info-bar__btn">←</div>
                     )
                   )}
                   {(this.state.next
                     ? (
-                      <Link to={this.state.next.fields.slug} className="info-bar__nav-right btn btn--light info-bar__btn" rel="next">
+                      <Link to={this.state.next.fields.slug} className="btn btn--light info-bar__btn" rel="next">
                   →
                         {/* <span className="page-header__nav-name">{this.state.next.frontmatter.title}</span> */}
                       </Link>
                     ) : (
-                      <div className="info-bar__nav-right info-bar__btn info-bar__nav--disabled">→</div>
+                      <div className="btn btn--light btn--disabled info-bar__btn">→</div>
                     )
                   )}
                 </div>

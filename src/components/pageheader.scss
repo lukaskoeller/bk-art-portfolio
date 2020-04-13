@@ -97,13 +97,8 @@
         display: flex;
         justify-content: flex-start;
 
-        &-left {
+        & .btn:first-child {
             margin-left: 0;
-        }
-
-        &--disabled {
-            border: 2px solid rgba(white,0.4);
-            color: rgba(white,0.4);
         }
     }
 
