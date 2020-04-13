@@ -18,7 +18,7 @@ const Header = ({ title, theme }) => {
         <h3 className="header__title">{title}</h3>
       </div>
       <nav className="nav">
-        <Link className="nav__item" to="/about">Künstler</Link>
+        <Link className="nav__item" to="/about">Künstlerin</Link>
         <Link className="nav__item" to="/#gallery">Gallerie</Link>
         <Link className="nav__item" to="/#exhibitions">Ausstellungen</Link>
         <Link className="nav__item" to="/#contact">Kontakt</Link>

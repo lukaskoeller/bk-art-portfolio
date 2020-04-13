@@ -4,56 +4,31 @@
     justify-content: space-between;
     position: relative;
     width: 100%;
-    height: 100vh;
     min-height: 100vh;
     margin: 0 auto;
     padding: var(--spacing-section) var(--spacing-6);
-    padding-bottom: var(--spacing-4);
+    padding-bottom: var(--spacing-6);
     background-color: var(--primary-color);
 
-    &__nav {
-        position: relative;
-        width: 100%;
+    &__split {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: auto;
-        min-height: 72px; // Style fix for a problem occuring with react-image which container is pushing __nav beyond auto-calculated min-height.
-        cursor: default;
-        // padding-bottom: env(safe-area-inset-bottom, var(--spacing-2));
-        // padding-bottom: var(--spacing-4);
-
-        &-left, &-right {
-            flex-grow: 1;
-            padding: var(--spacing-4) 0;
-            color: rgba(white,1);
-            transition: var(--duration) var(--timing);
-
-            &:hover {
-                color: rgba(white,1);
-            }
-        }
-
-        &-left {
-            padding-left: 0;
-            text-align: left;
-        }
-
-        &-right {
-            padding-right: 0;
-            text-align: right;
-        }
-
-        &--disabled {
-            color: rgba(white,0.4);
-        }
     }
 
-    &__headline {
-        margin-top: 0;
-        margin-bottom: var(--spacing-15);
-        color: white;
-        text-align: center;
+    // toggle scale image
+    .scaleImage {
+        flex-direction: column;
+         
+        .page-header {
+        
+            &__image-container {
+                height: auto;
+            }
+
+            &__info {
+                padding: var(--spacing-6) 0;
+                padding-bottom: 0;
+            }
+        }
     }
 
     &__desc {
@@ -66,21 +41,74 @@
         text-align: center;
     }
 
+    &__image-container {
+        flex: 1;
+        height: calc(100vh - var(--spacing-6) - var(--spacing-section));
+    }
+
     &__image {
         flex-grow: 1;
-        // height: 100%;
+        max-height: 100%;
         // cursor: pointer;
+    }
+
+    &__info {
+        flex: 1;
+        max-width: 60vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 0 2px var(--spacing-6);
+        //padding: var(--spacing-6) 0 2px var(--spacing-6);
+        
+        color: white;
+        
+        table {
+            margin-bottom: var(--spacing-12);
+        }
+
+        thead {
+            display: none;
+        }
+
+        td {
+            padding-right: var(--spacing-5);
+        }
+    }
+
+    &__headline {
+        color: white;
+        margin-bottom: var(--spacing-6);
+
+        &--text-center {
+            text-align: center;
+        }
     }
 }
 
 .info-bar {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr) auto;
-    grid-gap: var(--spacing-3);
-    padding: var(--spacing-4);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: var(--spacing-4);
+
+    &__nav {
+        display: flex;
+        justify-content: flex-start;
+
+        & .btn:first-child {
+            margin-left: 0;
+        }
+    }
+
+    &__misc {
+        display: flex;
+        justify-content: flex-end;
+    }
 
     &__btn {
-        margin: 0 var(--spacing-1);
+        margin-left: var(--spacing-2);
 
         svg path {
             transition: var(--duration) var(--timing);
@@ -93,21 +121,34 @@
 }
 
 @media only screen and (max-width: 900px) {
-    .info-bar {
-        &__btn {
-            padding-left: var(--spacing);
-            padding-right: var(--spacing);
-            border: 0;
-            // border-bottom: 3px solid white;
+    .page-header {
+        &__split {
+            flex-direction: column;
+        }
+
+        &__info {
+            max-width: 100%;
+            padding: var(--spacing-6) 0;
+            padding-bottom: 0;
         }
     }
 }
 
-@media only screen and (max-width: 700px) {
-    .page-header {
+@media only screen and (max-width: 500px) {
+    .info-bar {
+        flex-direction: column-reverse;
+
         &__nav {
-            &-name {
-                display: none;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: var(--spacing-3);
+        }
+
+        &__misc {
+            width: 100%;
+
+            .info-bar__btn {
+                flex: 1;
             }
         }
     }

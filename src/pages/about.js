@@ -20,7 +20,7 @@ const AboutPage = ({ data }) => {
     <Layout theme="dark">
       <SEO title="Künstler" description={about.frontmatter.description} />
       <PageHeader style={{ justifyContent: 'center' }}>
-        <h1 className="page-header__headline">{about.frontmatter.title}</h1>
+        <h1 className="page-header__headline page-header__headline--text-center">{about.frontmatter.title}</h1>
         <p className="page-header__desc">{about.frontmatter.description}</p>
       </PageHeader>
       <Container styleModifier={['no-padding']}>
