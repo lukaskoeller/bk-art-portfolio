@@ -3,13 +3,16 @@
 // [type="reset"],
 // [type="submit"],
 .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   appearance: none;
   border: 2px solid var(--primary-color);
   border-radius: 0;
   background-color: transparent;
   color: var(--primary-color);
   cursor: pointer;
-  display: inline-block;
+  // display: inline-block;
   font-family: var(--font-family-base);
   font-size: 1rem;
   -webkit-font-smoothing: antialiased;
