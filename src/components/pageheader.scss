@@ -88,10 +88,14 @@
 }
 
 .info-bar {
+    width: 100%;
+    margin-top: var(--spacing-4);
+}
+
+.info-bar-in {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-top: var(--spacing-4);
     background-color: var(--primary-color);
 
     &__nav {
@@ -140,8 +144,17 @@
 
     .info-bar {
         position: fixed;
-        bottom: 0;
-        padding: var(--spacing-2) var(--spacing-2) var(--spacing-4) var(--spacing-2);
+        bottom: var(--spacing-3);
+        margin-top: 0;
+        padding: 0 var(--spacing-2) var(--spacing-3) var(--spacing-2);
+    }
+
+    .info-bar-in {
+        padding: var(--spacing-2);
+        background-color: rgba(white,0.05);
+        border-radius: var(--border-radius);
+        backdrop-filter: blur(var(--spacing-4));
+        // border: 1px solid white;
     }
 }
 
@@ -156,9 +169,7 @@
             padding: var(--spacing-6) 0;
         }
     }
-    .info-bar {
-        padding-bottom: var(--spacing-5);
-
+    .info-bar-in {
         &__nav {
             justify-content: space-between;
             width: 100%;
@@ -168,7 +179,7 @@
             width: 100%;
             margin-left: var(--spacing-2);
 
-            .info-bar__btn {
+            .info-bar-in__btn {
                 padding-top: 0;
                 padding-bottom: 0;
             }
@@ -185,19 +196,16 @@
 }
 
 @media only screen and (max-width: 400px) {
-    .info-bar {
-        padding: var(--spacing-2) 0 var(--spacing-5) 0;
-        border-top: 1px solid white;
-
+    .info-bar-in {
         &__nav {
-            .info-bar__btn {
+            .info-bar-in__btn {
                 border: 0;
                 margin-left: 0;
             }
         }
 
         &__misc {
-            .info-bar__btn {
+            .info-bar-in__btn {
                 border: 0;
                 margin-left: 0;
             }
