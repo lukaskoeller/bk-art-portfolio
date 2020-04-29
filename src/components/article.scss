@@ -24,12 +24,21 @@
     }
 
     table {
-        width: 50%;
-        margin: var(--spacing-6) auto;
+        margin: var(--spacing-7) 0;
+        padding: 0;
         text-align: left;
-        background-color: rgba(var(--primary-color), 0.1);
-        border: 1px solid var(--primary-color);
-        padding: var(--spacing-2) var(--spacing-6);
+
+        tr {
+            td,th {
+                font-weight: normal;
+                padding: var(--spacing-2);
+
+                &:first-of-type {
+                    padding-left: 0;
+                    min-width: 150px;
+                }
+            }
+        }
         
         // th {
         //     // border-bottom: 1px solid var(--primary-color);
