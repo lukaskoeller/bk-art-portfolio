@@ -19,6 +19,7 @@ Der regelmäßige Austausch mit anderen Künstlerinnen ist für mich eine große
 
 ## Vita
 | 2015 - Heute | Regelmäßiger Austausch und gemeinsames Arbeiten in einer kleinen Künstlergruppe                                       |
+|--------------|-----------------------------------------------------------------------------------------------------------------------|
 | 2008 - Heute | Teilzeitarbeit im pädagogischen Bereich: Kunstkurse an der Grundschule und Sprachförderung an mehreren Kitas          |
 | 2000 - Heute | Regelmäßige Teilnahme an Kunstkursen und Weiterbildung  an der VHS, bei Künstlerinnen und an der Hamburger Kunsthalle |
 | 1989 - Heute | gemeinschaftliches Wohnen in Aumühle bei Hamburg                                                                      |
@@ -28,6 +29,7 @@ Der regelmäßige Austausch mit anderen Künstlerinnen ist für mich eine große
 
 ## Ausstellungen
 | 2019 | Gemeinschaftausstellung "Menschen und Farbspiele" im Augustinum in Aumühe |
+|------|---------------------------------------------------------------------------|
 | 2017 | Gemeinschaftsausstellung in der Praxis Köller in Hamburg                  |
 | 2015 | Gemeinschaftsausstellung "Nah und Fern" im Augustinum in Aumühle          |
 |      | Teilnahme an der "Bergedorfer Kunstschau"                                 |
