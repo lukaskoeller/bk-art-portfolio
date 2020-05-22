@@ -1,7 +1,7 @@
 ---
 title: "Mein Weg in die Kunst"
 description: "Ich bin Bärbel Köller, 1959 geboren und lebe am Rand von Hamburg. Hier möchte ich euch meinen Weg in die Kunst erzählen."
-coverImage: ./adventure-girl.jpg
+coverImage: ./baerbel-koeller-portrait.jpg
 ---
 
 Schon als Kind habe ich sehr gerne gemalt und die Schule weckte meine Begeisterung für die Kunst.
