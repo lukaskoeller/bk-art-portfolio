@@ -100,25 +100,27 @@ const IndexPage = ({ data }) => {
     <Container id="exhibitions">
       <h2 className="container__headline">Ausstellungen</h2>
       <div className="exhibitions">
-        {exhibitions.map(({ node }) => {
-          return (
-            <div className="exhibition" key={node.id}>
-              <div className="exhibition__info">
-                <div className="exhibition__tag exhibition__date">{node.frontmatter.dateText}</div>
-                <div className="exhibition__tag exhibition__location">{node.frontmatter.location}</div>
-                <div className="exhibition__tag exhibition__price">{node.frontmatter.price}</div>
-              </div>
-              <div className="exhibition__content">
-                <h3 className="exhibition__headline">{node.frontmatter.title}</h3>
-                <p className="exhibition__desc">{node.frontmatter.description}</p>
-              </div>
-              <div className="exhibition__checkout">
-                <div className="exhibition__btn" onClick={() => shareEvent('https://bk-art.netlify.com', node.frontmatter.title, `Kunstausstellung von Bärbel Köller | ${node.frontmatter.dateText} | ${node.frontmatter.location}`)}>Teilen</div>
-                {/* <div className="exhibition__btn">Zum Kalender hinzufügen</div> */}
-              </div>
-            </div>
-          )
-        })}
+        {(
+          exhibitions.length === 1 ? <h2 className="no-exhibitions">Zurzeit sind keine Ausstellungen geplant.</h2>
+            : exhibitions.map(({ node }) => {
+              return (
+                <div className="exhibition" key={node.id}>
+                  <div className="exhibition__info">
+                    <div className="exhibition__tag exhibition__date">{node.frontmatter.dateText}</div>
+                    <div className="exhibition__tag exhibition__location">{node.frontmatter.location}</div>
+                    <div className="exhibition__tag exhibition__price">{node.frontmatter.price}</div>
+                  </div>
+                  <div className="exhibition__content">
+                    <h3 className="exhibition__headline">{node.frontmatter.title}</h3>
+                    <p className="exhibition__desc">{node.frontmatter.description}</p>
+                  </div>
+                  <div className="exhibition__checkout">
+                    <div className="exhibition__btn" onClick={() => shareEvent('https://bk-art.netlify.com', node.frontmatter.title, `Kunstausstellung von Bärbel Köller | ${node.frontmatter.dateText} | ${node.frontmatter.location}`)}>Teilen</div>
+                    {/* <div className="exhibition__btn">Zum Kalender hinzufügen</div> */}
+                  </div>
+                </div>
+              )
+            }))}
       </div>
     </Container>
     <Container id="contact" styleModifier={['dark-theme']}>

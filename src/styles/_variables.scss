@@ -16,6 +16,7 @@ $viewport-background-color: $secondary-color;
 :root {
   // Colors
   --primary-color: hsl(0, 0%, 0%);
+  --primary-color-lighten: hsl(0, 0%, 50%);
   --secondary-color: hsl(0, 0%, 100%);
   --font-color: $font-color--base;
   --background-color: hsl(240, 100%, 98%);
