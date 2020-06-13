@@ -96,6 +96,10 @@
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
 }
 
+.no-exhibitions {
+    color: var(--primary-color-lighten);
+}
+
 .exhibition {
     max-width: 800px;
     width: auto;
