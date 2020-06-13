@@ -2,6 +2,7 @@
 title: "Junge"
 description: "Gemälde 'Junge' von Bärbel Köller"
 coverImage: "./painting-8.jpg"
+type: "Öl auf Malpappe"
 ---
 
 | Technik            | Maße    | Preis |

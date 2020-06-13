@@ -2,6 +2,7 @@
 title: "Frau mit Kopftuch"
 description: "Gemälde 'Frau mit Kopftuch' von Bärbel Köller."
 coverImage: ./painting-31.jpg
+type: "Öl auf Malpappe"
 ---
 
 | Technik         | Maße    | Preis |

@@ -2,6 +2,7 @@
 title: "Blüte in hellblau"
 description: "Gemälde 'Blüte in hellblau' von Bärbel Köller."
 coverImage: ./painting-14.jpg
+type: "Acryl auf Leinwand"
 ---
 
 | Technik            | Maße    | Preis |

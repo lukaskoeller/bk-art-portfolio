@@ -2,6 +2,7 @@
 title: "Exotische Frau"
 description: "Gemälde 'Exotische Frau' von Bärbel Köller."
 coverImage: ./painting-29.jpg
+type: "Öl auf Malpappe"
 ---
 
 | Technik         | Maße    | Preis |

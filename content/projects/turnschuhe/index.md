@@ -2,6 +2,7 @@
 title: "Turnschuhe"
 description: "Gemälde 'Turnschuhe' von Bärbel Köller."
 coverImage: ./painting-24.jpg
+type: "Acryl auf Leinwand"
 ---
 
 | Technik          | Maße    | Preis |

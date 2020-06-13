@@ -2,6 +2,7 @@
 title: "Die Musikerin"
 description: "Gemälde 'Die Musikerin' von Bärbel Köller."
 coverImage: ./painting-35.jpg
+type: "Öl auf Malpappe"
 ---
 
 | Technik         | Maße    | Preis |

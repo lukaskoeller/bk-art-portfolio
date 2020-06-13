@@ -2,6 +2,7 @@
 title: "Fische"
 description: "Gemälde 'Fische' von Bärbel Köller."
 coverImage: ./painting-1.jpg
+type: "Öl auf Malpappe"
 ---
 
 | Technik            | Maße    | Preis |
