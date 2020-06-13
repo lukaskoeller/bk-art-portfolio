@@ -2,6 +2,7 @@
 title: "Frosch"
 description: "Gemälde 'Frosch' von Bärbel Köller."
 coverImage: ./painting-5.jpg
+type: "Aquarell"
 ---
 
 | Technik         | Maße    | Preis |

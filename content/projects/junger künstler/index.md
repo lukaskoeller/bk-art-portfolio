@@ -2,6 +2,7 @@
 title: "Junger Künstler"
 description: "Gemälde 'Junger Künstler' von Bärbel Köller."
 coverImage: ./painting-36.jpg
+type: "Öl auf Malpappe"
 ---
 
 | Technik            | Maße    | Preis |

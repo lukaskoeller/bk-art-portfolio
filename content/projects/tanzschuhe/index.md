@@ -2,6 +2,7 @@
 title: "Tanzschuhe"
 description: "Gemälde 'Tanzschuhe' von Bärbel Köller."
 coverImage: "./painting-7.jpg"
+type: "Öl auf Malpappe"
 ---
 
 | Technik          | Maße    | Preis |

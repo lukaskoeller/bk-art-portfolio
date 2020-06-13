@@ -2,6 +2,7 @@
 title: "Frühlingsimpression"
 description: "Gemälde 'Frühlingsimpression' von Bärbel Köller."
 coverImage: ./painting-21.jpg
+type: "Acryl auf Leinwand"
 ---
 
 | Technik            | Maße    | Preis |

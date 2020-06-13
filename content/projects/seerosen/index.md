@@ -2,6 +2,7 @@
 title: "Seerosen"
 description: "Gemälde 'Seerosen' von Bärbel Köller."
 coverImage: ./painting-18.jpg
+type: "Acryl auf Leinwand"
 ---
 
 | Technik            | Maße    | Preis |

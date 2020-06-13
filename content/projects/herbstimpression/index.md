@@ -2,6 +2,7 @@
 title: "Herbstimpression"
 description: "Gemälde 'Herbstimpression' von Bärbel Köller."
 coverImage: ./painting-19.jpg
+type: "Acryl auf Leinwand"
 ---
 
 | Technik            | Maße    | Preis |

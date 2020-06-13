@@ -2,6 +2,7 @@
 title: "Schauspielerin"
 description: "Gemälde 'Schauspielerin' von Bärbel Köller."
 coverImage: ./painting-9.jpg
+type: "Acryl auf Leinwand"
 ---
 
 | Technik            | Maße    | Preis |

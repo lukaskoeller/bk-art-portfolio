@@ -2,6 +2,7 @@
 title: "Zwei Jagdhunde"
 description: "Gemälde 'Zwei Jagdhunde' von Bärbel Köller."
 coverImage: ./painting-4.jpg
+type: "Öl auf Malpappe"
 ---
 
 | Technik                     | Maße    | Preis |

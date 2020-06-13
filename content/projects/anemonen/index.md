@@ -2,6 +2,7 @@
 title: "Anemonen"
 description: "Gemälde 'Anemonen' von Bärbel Köller."
 coverImage: ./painting-25.jpg
+type: "Öl auf Malpappe"
 ---
 
 | Technik         | Maße    | Preis |

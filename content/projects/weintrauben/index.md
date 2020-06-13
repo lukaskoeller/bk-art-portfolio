@@ -2,6 +2,7 @@
 title: "Weintrauben"
 description: "Gemälde 'Weintrauben' von Bärbel Köller."
 coverImage: ./painting-3.jpg
+type: "Öl auf Malpappe"
 ---
 
 | Technik                     | Maße    | Preis |

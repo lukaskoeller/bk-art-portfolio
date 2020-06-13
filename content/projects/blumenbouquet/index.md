@@ -2,6 +2,7 @@
 title: "Blumenbouquet"
 description: "Gemälde 'Blumenbouquet' von Bärbel Köller."
 coverImage: ./painting-11.jpg
+type: "Acryl auf Leinwand"
 ---
 
 | Technik         | Maße    | Preis |

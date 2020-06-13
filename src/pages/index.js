@@ -51,8 +51,39 @@ const IndexPage = ({ data }) => {
     </Container>
     <Container id="gallery">
       <h2 className="container__headline">Gallerie</h2>
+      <h3 className="gallery__type">Acryl</h3>
       <div className="projects">
-        {projects.map(({ node }) => {
+        {projects.filter(({ node }) => node.frontmatter.type === 'Acryl auf Leinwand').map(({ node }) => {
+          return (
+            <Link to={node.fields.slug} key={node.id} className="project">
+              <Img className="project__image" fluid={node.frontmatter.coverImage.childImageSharp.fluid} />
+              <div className="project__info-container">
+                <div className="project__info">
+                  <h2 className="project__headline">{node.frontmatter.title}</h2>
+                </div>
+              </div>
+            </Link>
+          )
+        })}
+      </div>
+      <h3 className="gallery__type">Öl</h3>
+      <div className="projects">
+        {projects.filter(({ node }) => node.frontmatter.type === 'Öl auf Malpappe').map(({ node }) => {
+          return (
+            <Link to={node.fields.slug} key={node.id} className="project">
+              <Img className="project__image" fluid={node.frontmatter.coverImage.childImageSharp.fluid} />
+              <div className="project__info-container">
+                <div className="project__info">
+                  <h2 className="project__headline">{node.frontmatter.title}</h2>
+                </div>
+              </div>
+            </Link>
+          )
+        })}
+      </div>
+      <h3 className="gallery__type">Aquarell</h3>
+      <div className="projects">
+        {projects.filter(({ node }) => node.frontmatter.type === 'Aquarell').map(({ node }) => {
           return (
             <Link to={node.fields.slug} key={node.id} className="project">
               <Img className="project__image" fluid={node.frontmatter.coverImage.childImageSharp.fluid} />
@@ -113,6 +144,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            type
             coverImage {
               childImageSharp {
                   fluid(maxWidth: 800) {
