@@ -10,4 +10,4 @@ type: "Acryl auf Leinwand"
 | Acryl auf Leinwand | 70x70cm | 250€  |
 
 
-Die Schule weckte meine Begeisterung für die Kunst. In verschiedenen Zeichen- und Aquarellkursen, sowie der Pastellmalerei habe ich das Skizzieren gelernt.
+So wie die Blätter dieser Seerose, liebe auch ich das Schwimmen im Sommersee. Haben sie die Seerosen schon einmal beobachtet? Bei schönem Wetter öffnen sie sich und schließen sich wieder bei Schatten, bei Regen und zur Nacht.

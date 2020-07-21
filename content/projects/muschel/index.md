@@ -9,5 +9,4 @@ type: "Acryl auf Leinwand"
 |--------------------|---------|-------|
 | Acryl auf Leinwand | 60x90cm | 290€  |
 
-
-Die Schule weckte meine Begeisterung für die Kunst. In verschiedenen Zeichen- und Aquarellkursen, sowie der Pastellmalerei habe ich das Skizzieren gelernt und mich mehr und mehr mit dem Zusammenspiel.
+Schale, Flügel, Blüte oder Muschel, was mag es nur sein? Beim Malen dachte ich an eine Muschel. Bei der Farb- und Formgestaltung kam meine Fantasie ins Spiel und mich reizte der starke Kontrast von hellen und dunklen Formen und Flächen.
