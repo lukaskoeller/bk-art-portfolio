@@ -10,4 +10,4 @@ type: "Acryl auf Leinwand"
 | Acryl auf Papier (s/w) | 32x40cm | 120€  |
 
 
-Die Schule weckte meine Begeisterung für die Kunst. In verschiedenen Zeichen- und Aquarellkursen, sowie der Pastellmalerei habe ich das Skizzieren gelernt und mich mehr und mehr mit dem Zusammenspiel von Licht und Farbe, dem Gegensatz von abstrakter.
+Ich habe mich immer schon für das Judentum interessiert. Da entdeckte ich diesen Rabbi, wie er über seine Brille schielt. Es ist eins meiner ersten Portraits. Ich würde diesen Rabbi gerne kennenlernen und mit ihm diskutieren über Gott und die Welt.

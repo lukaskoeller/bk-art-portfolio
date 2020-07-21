@@ -10,4 +10,4 @@ type: "Acryl auf Leinwand"
 | Acryl auf Papier   | 30x40cm | 150€  |
 
 
-Die Schule weckte meine Begeisterung für die Kunst. In verschiedenen Zeichen- und Aquarellkursen, sowie der Pastellmalerei habe ich das Skizzieren gelernt und mich mehr und mehr mit dem Zusammenspiel von Licht und Farbe, dem Gegensatz von abstrakter und gegenständlicher Kunst und der Vielfalt der Farben auseinander gesetzt. Die zahlreichen Möglichkeiten der Acrylmalerei und die Schönheit.
+Markante Gesichtszüge hat er und einige Jährchen auf dem Puckel. Vielleicht kennen sie diesen Schauspieler, seinen Namen verrate ich hier nicht.

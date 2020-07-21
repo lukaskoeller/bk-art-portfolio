@@ -9,5 +9,4 @@ type: "Acryl auf Leinwand"
 |--------------------|---------|-------|
 | Acryl auf Leinwand | 70x100cm | 280€ |
 
-
-Die Schule weckte meine Begeisterung für die Kunst. In verschiedenen Zeichen- und Aquarellkursen, sowie der Pastellmalerei habe ich das Skizzieren gelernt und mich mehr und mehr mit dem Zusammenspiel von Licht und Farbe, dem Gegensatz von abstrakter und gegenständlicher Kunst und der Vielfalt der Farben auseinander gesetzt. Die zahlreichen Möglichkeiten der Acrylmalerei und die Schönheit der Ölmalerei begeistern mich immer wieder neu. Verschiedene Künstlerinnen haben mich auf diesem Weg in den vergangenen zwanzig Jahren angeregt und gefördert.
+Kommen sie mit auf den hell erleuchteten Kirmesplatz und lassen sie uns einsteigen in die Achterbahn oder doch lieber eine Runde auf dem Riesenrad drehen. Einmal alles vergessen, Kind sein und Spaß haben. 

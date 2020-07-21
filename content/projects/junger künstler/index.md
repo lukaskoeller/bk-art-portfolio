@@ -9,4 +9,4 @@ type: "Öl auf Malpappe"
 |--------------------|---------|-------|
 | Öl auf Malpappe    | 25x25cm | 130€  |
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Eigenwillig und verträumt schaut dieser Junge in die Welt. In seinem Kopf stecken sicher viele neue kreative Ideen. Wer weiß, womit er uns in Zukunft überrachen wird. Geben wir ihm die Zeit, sich zu finden und sich zu entwickeln!
