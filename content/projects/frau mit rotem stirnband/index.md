@@ -10,4 +10,4 @@ type: "Öl auf Malpappe"
 | Öl auf Malpappe | 25x25cm | 130€  |
 
 
-Die Schule weckte meine Begeisterung für die Kunst. In verschiedenen Zeichen- und Aquarellkursen, sowie der Pastellmalerei habe ich das Skizzieren gelernt und mich mehr und mehr mit dem Zusammenspiel von Licht und Farbe, dem Gegensatz von abstrakter und gegenständlicher Kunst und der Vielfalt der Farben auseinander gesetzt. Die zahlreichen Möglichkeiten der Acrylmalerei und die Schönheit der Ölmalerei begeistern mich immer wieder neu. Verschiedene Künstlerinnen haben mich auf diesem Weg in den vergangenen zwanzig Jahren angeregt und gefördert.
+Mich hat das Foto von dieser Frau in einem Portraitkurs so angesprochen, dass ich viel Freude hatte, es zu malen, zumal das schöne rote Kopftuch ein besonderer Blickfang ist.
