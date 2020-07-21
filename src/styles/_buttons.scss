@@ -51,7 +51,14 @@
   }
   
   &--disabled {
+    cursor: not-allowed;
     border: 2px solid rgba(white,0.4);
     color: rgba(white,0.4);
+
+    &:hover {
+      border: 2px solid rgba(white,0.4);
+      color: rgba(white,0.4);
+      background-color: transparent;
+    }
   }
 }

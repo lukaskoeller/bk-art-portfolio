@@ -40,7 +40,10 @@ const IndexPage = ({ data }) => {
     </div>
     <Container>
       <div className="intro">
-        <div className="intro__about" dangerouslySetInnerHTML={{ __html: indexPage.frontmatter.intro }}></div>
+        <div className="intro__about">
+          <div dangerouslySetInnerHTML={{ __html: indexPage.frontmatter.intro }}></div>
+          <Link to='/about' class="intro__link">Weiterlesen</Link>
+        </div>
         <Img className="intro__image" fluid={indexPage.frontmatter.introImage.childImageSharp.fluid} />
         {/* <div className="intro__quote">
           <blockquote>

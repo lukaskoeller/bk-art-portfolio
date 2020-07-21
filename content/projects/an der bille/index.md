@@ -10,4 +10,4 @@ type: "Acryl auf Leinwand"
 | Acryl auf Leinwand | 80x100cm | 360€  |
 
 
-Nahe unseres Hauses ließt die Bille. Ich schätze die Radtouren und das Joggen entlang dieses kleinen Baches, das Licht und das frische Grün des Frühlings, wenn die ersten kräftigen Farbtöne den grauen Winter vertreiben.
+Nahe unseres Hauses fließt die Bille. Ich schätze die Radtouren und das Joggen entlang dieses kleinen Baches, das Licht und das frische Grün des Frühlings, wenn die ersten kräftigen Farbtöne den grauen Winter vertreiben.
