@@ -10,4 +10,4 @@ type: "Öl auf Malpappe"
 | Öl auf leinenartigem Papier | 24x33cm | 130€  |
 
 
-Die Schule weckte meine Begeisterung für die Kunst. In verschiedenen Zeichen- und Aquarellkursen, sowie der Pastellmalerei habe ich das Skizzieren gelernt und mich mehr und mehr mit dem Zusammenspiel von Licht und Farbe, dem Gegensatz von abstrakter und gegenständlicher Kunst und der Vielfalt der Farben auseinander gesetzt.
+Dieses Stillleben spricht eigentlich für sich! Das zarte kleine Bäumchen an der Wand verweist auf den Weinstock und wir können uns jedes Jahr an den köstlichen Weintrauben freuen und abends mit Freunden bei einem Glas Wein zusammen sitzen.
