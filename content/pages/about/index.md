@@ -1,6 +1,6 @@
 ---
-title: "Hallo!"
-description: "Ich bin Bärbel Köller und begrüße Dich auf meiner Homepage. Gerne erzähle ich Dir ein wenig von mir und meiner Kunst. Es würde mich sehr freuen, wenn dich ein Bild persönlich anspricht. Du kannst gerne mit mir Kontakt aufnehmen, wenn du ein Fotomotiv in Auftrag geben möchtest."
+title: "Ich bin Bärbel Köller"
+description: "...und begrüße Dich auf meiner Homepage. Gerne erzähle ich Dir ein wenig von mir und meiner Kunst. Es würde mich sehr freuen, wenn dich ein Bild persönlich anspricht. Du kannst gerne mit mir Kontakt aufnehmen, wenn du ein Fotomotiv in Auftrag geben möchtest."
 coverImage: ./baerbel-koeller-portrait.jpg
 ---
 
