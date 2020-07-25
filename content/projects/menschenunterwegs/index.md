@@ -10,4 +10,4 @@ type: "Acryl auf Leinwand"
 | Acryl auf Leinwand | 60x80cm | 250€  |
 
 
-Die Schule weckte meine Begeisterung für die Kunst. In verschiedenen Zeichen- und Aquarellkursen, sowie der Pastellmalerei habe ich das Skizzieren gelernt und mich mehr und mehr mit dem Zusammenspiel von Licht und Farbe, dem Gegensatz von abstrakter und gegenständlicher Kunst und der Vielfalt der Farben auseinander gesetzt. Die zahlreichen Möglichkeiten der Acrylmalerei und die Schönheit der Ölmalerei begeistern mich immer wieder neu. Verschiedene Künstlerinnen haben mich auf diesem Weg in den vergangenen zwanzig Jahren angeregt und gefördert.
+Als Betrachter dieses Bildes lasse ich mich mit hineinnehmen in diese Menschenmenge, in den Sog der Gruppe, die mich unweigerlich nach vorne schiebt. Eigentlich mag ich keine großen Menschenansammlungen, aber gemeinsam unterwegs zu sein gefällt mir. Die Gruppe kann mir Kraft und Schutz bieten.

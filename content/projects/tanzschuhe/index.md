@@ -10,4 +10,4 @@ type: "Öl auf Malpappe"
 | Öl auf Malpappe  | 18x24cm | 120€  |
 
 
-Die Schule weckte meine Begeisterung für die Kunst. In verschiedenen Zeichen- und Aquarellkursen, sowie der Pastellmalerei habe ich das Skizzieren gelernt und mich mehr und mehr mit dem Zusammenspiel von Licht und Farbe, dem Gegensatz von abstrakter.
+Auch wenn ich solche hübschen Tanzschuhe nicht besitze, verbinde ich mit ihnen das Tanzen, schöne Musik und ganz viel Lebensfreude. Ich kenne auch aus eigener Erfahrung die therapeutische Wirkung von Tanz und mich beeindruckt die Schönheit und Harmonie eines erfahrenen Tanzpaares.
