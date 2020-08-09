@@ -9,4 +9,4 @@ type: "Acryl auf Leinwand"
 |--------------------|---------|-------|
 | Acryl auf Leinwand    | 70x100cm | 340€  |
 
-Dieses Bild ist spontan aus meiner Fantasie und Träumerei entstanden, Formen und Farben spielen miteinander. Vielleicht sind es ihre Lieblingsfarben.
+Dieses Bild ist spontan aus meiner Fantasie und Träumerei entstanden, Formen und Farben spielen miteinander. Vielleicht sind es Ihre Lieblingsfarben.

@@ -10,4 +10,4 @@ type: "Öl auf Malpappe"
 | Öl auf Malpappe | 25x25cm | 130€  |
 
 
-Sie schaut uns so freundlich und zuversichtlich an, daß tut gut und wir kommen schnell mit ihr in Kontakt,- über alle Sprachgrenzen hinweg. Ich finde es immer bereichernd neue Menschen aus anderen Ländern und Kulturen kennen zu lernen.
+Sie schaut uns so freundlich und zuversichtlich an, das tut gut, und wir kommen schnell mit ihr in Kontakt,- über alle Sprachgrenzen hinweg. Ich finde es immer bereichernd, neue Menschen aus anderen Ländern und Kulturen kennenzulernen.

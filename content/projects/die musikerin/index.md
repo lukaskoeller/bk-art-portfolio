@@ -10,4 +10,4 @@ type: "Öl auf Malpappe"
 | Öl auf Malpappe | 25x25cm | 130€  |
 
 
-Diese junge Frau liebt die Musik und den Tanz. Auch mich setzt die Musik in Bewegung und ich erfreue mich an der Klassischen Musik und des Ballets,- aber nur als begeisterte Zuschauerin.
+Diese junge Frau liebt die Musik und den Tanz. Auch mich setzt die Musik in Bewegung und ich erfreue mich an der Klassischen Musik und dem Ballett.

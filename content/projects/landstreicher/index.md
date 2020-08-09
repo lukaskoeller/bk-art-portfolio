@@ -10,4 +10,4 @@ type: "Acryl auf Leinwand"
 | Aryl auf Papier (s/w) | 30x40cm | 130€  |
 
 
-Die Landstraße ist sein zu Hause. Dieser Typ mit seinem kritischen Blick, der Käppi und dem Rauschebart,  ist ein Original.
+Die Landstraße ist sein Zuhause. Dieser Typ mit seinem kritischen Blick dem Käppi und dem Rauschebart ist ein Original.

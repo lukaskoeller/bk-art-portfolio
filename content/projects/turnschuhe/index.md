@@ -10,4 +10,4 @@ type: "Acryl auf Leinwand"
 | Acryl auf Papier | 30x40cm | 130€  |
 
 
-Es gibt so viele verschiedene Schuhe: dieses Paar erinnert mich an meine Kinder- und Jugendzeit. Doch auch heute werden diese Schuhe, in knalligen Farben,  gerne getragen.
+Es gibt so viele verschiedene Schuhe: Dieses Paar erinnert mich an meine Kinder- und Jugendzeit.

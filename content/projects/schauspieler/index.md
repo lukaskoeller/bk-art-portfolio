@@ -10,4 +10,4 @@ type: "Acryl auf Leinwand"
 | Acryl auf Papier   | 30x40cm | 150€  |
 
 
-Markante Gesichtszüge hat er und einige Jährchen auf dem Puckel. Vielleicht kennen sie diesen Schauspieler, seinen Namen verrate ich hier nicht.
+Markante Gesichtszüge hat er und einige Jährchen auf dem Buckel. Vielleicht kennen Sie diesen Schauspieler, seinen Namen verrate ich hier nicht.

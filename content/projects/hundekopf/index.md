@@ -10,4 +10,4 @@ type: "Öl auf Malpappe"
 | Öl auf leinenartigem Papier    | 24x33cm | 130€  |
 
 
-Ein Bild für alle Hundefreude! Nicht nur menschliche Gesichter, auch dieser Vierbeiner wollte von mir gemalt werden. So wie er uns anschaut ist er sicher ein treuer Freund und Begleiter. Vielleicht ja auch ihr neues pflegeleichtes Familienmitglied. 
+Ein Bild für alle Hundefreude! Nicht nur menschliche Gesichter, auch dieser Vierbeiner wollte von mir gemalt werden. So wie er uns anschaut ist er sicher ein treuer Freund und Begleiter.

@@ -10,4 +10,4 @@ type: "Acryl auf Leinwand"
 | Acryl auf Leinwand | 60x70cm | 260€  |
 
 
-Wie schön ist es die verschiedenen Fische zu beobachten oder sogar mit ihnen zu schwimmen! Und in der Tiefe des Sees und in der Weite unserer Ozeane gibt es so viel zu entdecken. Können sie es sehen, was sich dort in dem unendlichen Blau versteckt?
+Wie schön ist es, die verschiedenen Fische zu beobachten oder sogar mit ihnen zu schwimmen! Und in der Tiefe des Sees und in der Weite unserer Ozeane gibt es so viel zu entdecken. Können Sie es sehen, was sich dort in dem unendlichen Blau versteckt? 
