@@ -10,4 +10,4 @@ type: "Öl auf Malpappe"
 | Öl auf leinenartigem Papier | 24x33cm | 130€  |
 
 
-Ganz wachsam stehen diese beiden Hunde da und halten neugierig ihre guten Nasen in die Luft. Das Hundepaar, die leuchtende Graslandschaft und die mächtigen Berge im Hintergrund, daß alles hat mich gelockt das Bild zu malen.
+Wachsam stehen diese beiden Hunde da und halten neugierig ihre guten Nasen in die Luft. Das Hundepaar, die leuchtende Graslandschaft und die mächtigen Berge im Hintergrund, das alles hat mich motiviert, das Bild zu malen.

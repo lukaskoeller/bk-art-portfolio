@@ -10,4 +10,4 @@ type: "Acryl auf Leinwand"
 | Acryl auf Leinwand | 70x70cm | 250€  |
 
 
-So wie die Blätter dieser Seerose, liebe auch ich das Schwimmen im Sommersee. Haben sie die Seerosen schon einmal beobachtet? Bei schönem Wetter öffnen sie sich und schließen sich wieder bei Schatten, bei Regen und zur Nacht.
+So wie die Blätter dieser Seerose, liebe auch ich das Schwimmen im See. Haben Sie die Seerosen schon einmal beobachtet?

@@ -9,4 +9,4 @@ type: "Acryl auf Leinwand"
 |--------------------|---------|-------|
 | Acryl auf Leinwand | 70x100cm | 280€ |
 
-Kommen sie mit auf den hell erleuchteten Kirmesplatz und lassen sie uns einsteigen in die Achterbahn oder doch lieber eine Runde auf dem Riesenrad drehen. Einmal alles vergessen, Kind sein und Spaß haben. 
+Kommen Sie mit auf den hell erleuchteten Kirmesplatz, und lassen Sie uns einsteigen in die Achterbahn oder doch lieber eine Runde auf dem Riesenrad drehen. Einmal alles vergessen, Kind sein und Spaß haben.

@@ -10,4 +10,4 @@ type: "Öl auf Malpappe"
 | Öl auf Malpappe  | 18x24cm | 120€  |
 
 
-Auch wenn ich solche hübschen Tanzschuhe nicht besitze, verbinde ich mit ihnen das Tanzen, schöne Musik und ganz viel Lebensfreude. Ich kenne auch aus eigener Erfahrung die therapeutische Wirkung von Tanz und mich beeindruckt die Schönheit und Harmonie eines erfahrenen Tanzpaares.
+Auch wenn ich solche hübschen Tanzschuhe nicht besitze, verbinde ich mit ihnen das Tanzen, schöne Musik und ganz viel Lebensfreude.

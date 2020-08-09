@@ -10,4 +10,4 @@ type: "Öl auf Malpappe"
 | Öl auf leinenartigem Papier | 24x33cm | 130€  |
 
 
-Norwegen, das Land der rauhen und überwältigen Naturschönheiten: endlose Weite, Einsamkeit und Stille, Berge, Fjorde, Gletscher, Nordlichter und Blütenteppiche. Ich komme immer wieder gerne und laß mich verzaubern von diesem nordischen Land.
+Norwegen, das Land der rauen und überwältigen Naturschönheiten: endlose Weite, Einsamkeit und Stille, Berge, Fjorde, Gletscher, Nordlichter und Blütenteppiche.

@@ -9,4 +9,4 @@ type: "Acryl auf Leinwand"
 |--------------------|---------|-------|
 | Acryl auf Leinwand | 60x90cm | 290€  |
 
-Schale, Flügel, Blüte oder Muschel, was mag es nur sein? Beim Malen dachte ich an eine Muschel. Bei der Farb- und Formgestaltung kam meine Fantasie ins Spiel und mich reizte der starke Kontrast von hellen und dunklen Formen und Flächen.
+Schale, Flügel, Blüte oder Muschel, was mag es nur sein? Beim Malen dachte ich an eine Muschel. Bei der Farb- und Formgestaltung kam meine Fantasie ins Spiel, und mich reizte der starke Kontrast von hellen und dunklen Formen und Flächen.

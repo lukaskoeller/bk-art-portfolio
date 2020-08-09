@@ -9,4 +9,4 @@ type: "Öl auf Malpappe"
 |--------------------|---------|-------|
 | Öl auf Malpappe    | 25x25cm | 130€  |
 
-Einst standen drei große schöne Birken in unserem Garten. Dann kam der nächtliche Sturm und wir mußten Abschied nehmen von unseren schattenspendenden Riesen. Auch das beliebte Baumhaus aus Kindertagen fand ein trauriges Ende. 
+Einst standen drei große, schöne Birken in unserem Garten. Dann kam der nächtliche Sturm, und wir mussten Abschied nehmen von unseren schattenspendenden Riesen. Auch das beliebte Baumhaus aus Kindertagen fand ein trauriges Ende. 

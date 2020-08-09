@@ -10,4 +10,4 @@ type: "Acryl auf Leinwand"
 | Acryl auf Leinwand | 60x90cm | 320€  |
 
 
-Zarte Mohnblüten wiegen sich im Wind, sie sind zu zart um sie zu pflücken, hauchdünne Blütenblätter, angestrahlt von dem morgendlichen Licht. Wer mag sie nicht, die kräftigen Kontrastfarben, die gute Laune verschenken.
+Zarte Mohnblüten wiegen sich im Wind, sie sind zu zart, um sie zu pflücken, hauchdünne Blütenblätter, angestrahlt von dem morgendlichen Licht. Wer mag sie nicht, die kräftigen Kontrastfarben, die gute Laune verschenken?
