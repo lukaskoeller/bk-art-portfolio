@@ -7,7 +7,7 @@ type: "Acryl auf Leinwand"
 
 | Technik            | Maße    | Preis |
 |--------------------|---------|-------|
-| Acryl auf Papier   | 30x40cm | 150€  |
+| Acryl auf Papier   | 30x40cm | 180€  |
 
 
-Sie zeigt sich hier ganz ungeschminkt, freundlich lächelt sie uns mit ihren dunklen Augen an, ihre roten Lippen, der blaue Pullover, das gefällt mir. 
+Sie zeigt sich hier ganz ungeschminkt, freundlich lächelt sie uns mit ihren dunklen Augen an.  Ihre roten Lippen, der blaue Pullover, das gefällt mir. 

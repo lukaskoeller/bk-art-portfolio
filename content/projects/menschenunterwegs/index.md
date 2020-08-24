@@ -7,7 +7,7 @@ type: "Acryl auf Leinwand"
 
 | Technik            | Maße    | Preis |
 |--------------------|---------|-------|
-| Acryl auf Leinwand | 60x80cm | 250€  |
+| Acryl auf Leinwand | 60x80cm | 320€  |
 
 
 Als Betrachter dieses Bildes lasse ich mich in diese Menschenmenge mit hineinnehmen, in den Sog der Gruppe, die mich unweigerlich nach vorne schiebt.

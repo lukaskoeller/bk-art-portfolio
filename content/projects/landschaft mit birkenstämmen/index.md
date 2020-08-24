@@ -2,11 +2,11 @@
 title: "Landschaft mit Birkenstämmen"
 description: "Gemälde 'Landschaft mit Birkenstämmen' von Bärbel Köller."
 coverImage: ./painting-22.jpg
-type: "Öl auf Malpappe"
+type: "Acryl auf Leinwand"
 ---
 
 | Technik            | Maße    | Preis |
 |--------------------|---------|-------|
-| Öl auf Malpappe    | 25x25cm | 130€  |
+| Acryl auf Malpappe    | 60x40cm | 180€  |
 
-Einst standen drei große, schöne Birken in unserem Garten. Dann kam der nächtliche Sturm, und wir mussten Abschied nehmen von unseren schattenspendenden Riesen. Auch das beliebte Baumhaus aus Kindertagen fand ein trauriges Ende. 
+Einst standen drei große, schöne Birken in unserem Garten. Dann kam der nächtliche Sturm, und wir mussten Abschied nehmen von unseren schattenspendenden Riesen. Auch das beliebte Baumhaus aus Kindertagen fand ein trauriges Ende.

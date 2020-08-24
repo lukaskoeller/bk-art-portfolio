@@ -10,4 +10,4 @@ type: "Acryl auf Leinwand"
 | Acryl auf Leinwand | 60x60cm | 240€  |
 
 
-Da sind sie: die ganze Pracht der warmen Herbsttöne! Es ist “nur” eine Abstraktion, ein klitzekleiner Ausschnitt von einem Herbstblatt, gesehen wie durch eine Lupe. Für alle, die den Herbst lieben.
+Es ist "nur" eine Abstraktion, ein ganz kleiner Ausschnitt von einem Herbstblatt, gesehen wie durch eine Lupe. Für alle, die den Herbst lieben.

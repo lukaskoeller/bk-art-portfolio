@@ -10,4 +10,4 @@ type: "Aquarell"
 | Aquarell        | 24x32cm | 80€   |
 
 
-Ein "witziger Gesell", der da aus dem Schilf schaut und sich an den dünnen Halmen festhält. Gleich ist er wieder verschwunden, abgetaucht im kühlen Nass.
+Ein “witziger Gesell”, der da aus dem Schilf schaut und sich an den dünnen Halmen festhält. Gleich ist er wieder verschwunden, abgetaucht im kühlen Nass.
