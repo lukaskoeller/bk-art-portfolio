@@ -10,4 +10,4 @@ type: "Öl auf Malpappe"
 | Öl auf Malpappe | 25x25cm | 130€  |
 
 
-Er liebt sein Land, seine Familie, seine Tiere und seine Kultur. Gutmütig lässt er den Blick in die Ferne schweifen. Was er wohl sieht? Stolz trägt er seinen Turban, der ihm Schutz vor der Hitze gibt. 
+Er liebt sein Land, seine Familie, seine Tiere und seine Kultur. Gutmütig lässt er den Blick in die Ferne schweifen. Was er wohl sieht? Stolz trägt er seinen Turban, der ihm Schutz vor der Hitze gibt.

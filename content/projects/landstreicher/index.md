@@ -7,7 +7,7 @@ type: "Acryl auf Leinwand"
 
 | Technik               | Maße    | Preis |
 |-----------------------|---------|-------|
-| Aryl auf Papier (s/w) | 30x40cm | 130€  |
+| Aryl auf Papier (s/w) | 30x40cm | 150€  |
 
 
 Die Landstraße ist sein Zuhause. Dieser Typ mit seinem kritischen Blick dem Käppi und dem Rauschebart ist ein Original.

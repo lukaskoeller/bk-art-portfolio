@@ -10,7 +10,7 @@ const Container = ({ children, styleModifier, id, style }) => {
   function addModifier (styleModifier) {
     let styleModifierClasses = ''
     styleModifier.forEach((modifierName) => {
-      styleModifierClasses += `container--${modifierName}`
+      styleModifierClasses += ` container--${modifierName}`
     })
     return styleModifierClasses
   };

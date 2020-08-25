@@ -10,4 +10,4 @@ type: "Öl auf Malpappe"
 | Öl auf Malpappe    | 24x18cm | 120€  |
 
 
-Etwas erschrocken und erstaune sieht sich dieser Junge um. Was hat ihn aufgeschreckt, und was mag er wohl erblicken?
+Etwas erschrocken und erstaunt sieht sich dieser Junge um. Was hat ihn aufgeschreckt, und was mag er wohl erblicken?
