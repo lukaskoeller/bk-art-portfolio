@@ -10,7 +10,7 @@ import Logo from '../images/barbara-koeller-logo.inline.svg'
 import './footer.scss'
 
 const Footer = ({ siteTitle }) => (
-  <Container styleModifier={['dark-theme']}>
+  <Container id="footer">
     <footer className="footer">
       <Link to="/">
         <Logo />
