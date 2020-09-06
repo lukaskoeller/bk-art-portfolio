@@ -16,7 +16,7 @@ const ImprintsPage = ({ data }) => {
     <Layout theme="dark">
       <SEO title="Impressum" description={imprints.frontmatter.description} />
       <PageHeader style={{ justifyContent: 'center' }}>
-        <h1 className="page-header__headline">{imprints.frontmatter.title}</h1>
+        <h1 className="page-header__headline page-header__headline--text-center">{imprints.frontmatter.title}</h1>
         <p className="page-header__desc">{imprints.frontmatter.description}</p>
       </PageHeader>
       <Container>
