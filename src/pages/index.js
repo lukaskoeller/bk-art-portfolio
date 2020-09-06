@@ -129,7 +129,7 @@ const IndexPage = ({ data }) => {
     <Container id="contact" styleModifier={['dark-theme']}>
       <h2 className="container__headline container__headline--light">Kontakt</h2>
       <div className="contact" dangerouslySetInnerHTML={{ __html: indexPage.frontmatter.contact }}>
-        {/* <p className="contact__desc p p--light">Hallo! Für allgemeine Anfragen schick eine Email an <a href="mailto:hallo@bk-art.de">hallo@bk-art.de</a>. Wenn du Interesse an einem Kauf der Bilder hast, schicke eine <a href={`mailto:hallo@bk-art.de?subject=Kaufanfrage - ${new Date().toISOString()}`}>Kaufanfrage</a>.</p> */}
+        {/* <p className="contact__desc p p--light">Hallo! Für allgemeine Anfragen schick eine Email an <a href="mailto:bk-art@web.de">bk-art@web.de</a>. Wenn du Interesse an einem Kauf der Bilder hast, schicke eine <a href={`mailto:bk-art@web.de?subject=Kaufanfrage - ${new Date().toISOString()}`}>Kaufanfrage</a>.</p> */}
       </div>
     </Container>
   </Layout>)
