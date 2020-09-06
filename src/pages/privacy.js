@@ -16,7 +16,7 @@ const PrivacyPage = ({ data }) => {
     <Layout theme="dark">
       <SEO title="Datenschutz" description={privacy.frontmatter.description} />
       <PageHeader style={{ justifyContent: 'center' }}>
-        <h1 className="page-header__headline">{privacy.frontmatter.title}</h1>
+        <h1 className="page-header__headline  page-header__headline--text-center">{privacy.frontmatter.title}</h1>
         <p className="page-header__desc">{privacy.frontmatter.description}</p>
       </PageHeader>
       <Container>
