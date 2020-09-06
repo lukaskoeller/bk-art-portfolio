@@ -84,8 +84,8 @@ class ProjectTemplate extends React.Component {
                     )}
                   </div>
                   <div className="info-bar-in__misc">
-                    <button className="btn btn--light info-bar-in__btn" onClick={() => this.shareEvent('https://bk-art.netlify.com', this.state.project.frontmatter.title, `Schau dir das Gemälde '${this.state.project.frontmatter.title}' von Bärbel Köller an.`)}>Teilen</button>
-                    <a className="btn btn--light info-bar-in__btn" href={`mailto:hallo@bk-art.netlify.com?subject=${encodeURI(`Kaufanfrage: ${this.state.project.frontmatter.title}`)}`}>Kaufanfrage</a>
+                    <button className="btn btn--light info-bar-in__btn" onClick={() => this.shareEvent('https://bk-kunst.de', this.state.project.frontmatter.title, `Schau dir das Gemälde '${this.state.project.frontmatter.title}' von Bärbel Köller an.`)}>Teilen</button>
+                    <a className="btn btn--light info-bar-in__btn" href={`mailto:bk-art@web.de?subject=${encodeURI(`Kaufanfrage: ${this.state.project.frontmatter.title}`)}`}>Kaufanfrage</a>
                     <div className="btn btn--light info-bar-in__btn info-bar__btn-scale" onClick={this.scaleImage}>
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="white" d="M11 6L9 6 9 9 6 9 6 11 9 11 9 14 11 14 11 11 14 11 14 9 11 9z"/><path fill="white" d="M10,2c-4.411,0-8,3.589-8,8s3.589,8,8,8c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396 C17.365,13.543,18,11.846,18,10C18,5.589,14.411,2,10,2z M10,16c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S13.309,16,10,16z"/></svg>
                     </div>

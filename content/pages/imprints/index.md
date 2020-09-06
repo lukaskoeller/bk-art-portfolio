@@ -22,7 +22,7 @@ Barbara Köller
 
 Kontakt: 
 Telefon: %2B49-4104 6200
-E-Mail: help@bk-art.netlify.com
+E-Mail: bk-art@web.de
 
 ## Haftungsausschluss: 
 
