@@ -2,7 +2,7 @@
 title: "Fische in der Tiefe"
 description: "Gemälde 'Fische in der Tiefe' von Bärbel Köller."
 coverImage: ./painting-10.jpg
-type: "Acryl auf Leinwand"
+type: "Acryl"
 ---
 
 | Technik         | Maße    | Preis |

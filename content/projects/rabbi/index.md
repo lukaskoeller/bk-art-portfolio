@@ -2,7 +2,7 @@
 title: "Rabbi"
 description: "Gemälde 'Rabbi' von Bärbel Köller."
 coverImage: ./painting-26.jpg
-type: "Acryl auf Leinwand"
+type: "Acryl"
 ---
 
 | Technik                | Maße    | Preis |

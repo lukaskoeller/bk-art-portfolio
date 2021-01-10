@@ -2,7 +2,7 @@
 title: "Junge Frau aus Äthiopien"
 description: "Gemälde 'Junge Frau aus Äthiopien' von Bärbel Köller."
 coverImage: ./painting-34.jpg
-type: "Öl auf Malpappe"
+type: "Öl"
 ---
 
 | Technik            | Maße    | Preis |

@@ -2,7 +2,7 @@
 title: "Menschen unterwegs"
 description: "Gemälde 'Menschen unterwegs' von Bärbel Köller."
 coverImage: ./painting-16.jpg
-type: "Acryl auf Leinwand"
+type: "Acryl"
 ---
 
 | Technik            | Maße    | Preis |

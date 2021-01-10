@@ -2,7 +2,7 @@
 title: "Am Wasser"
 description: "Gemälde 'Am Wasser' von Bärbel Köller."
 coverImage: ./painting-12.jpg
-type: "Acryl auf Leinwand"
+type: "Acryl"
 ---
 
 | Technik         | Maße    | Preis |

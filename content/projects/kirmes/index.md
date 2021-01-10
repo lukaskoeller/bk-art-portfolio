@@ -2,7 +2,7 @@
 title: "Kirmes"
 description: "Gemälde 'Kirmes' von Bärbel Köller."
 coverImage: ./painting-17.jpg
-type: "Acryl auf Leinwand"
+type: "Acryl"
 ---
 
 | Technik            | Maße    | Preis |

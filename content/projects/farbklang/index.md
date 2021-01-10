@@ -2,7 +2,7 @@
 title: "Farbklang"
 description: "Gemälde 'Farbklang' von Bärbel Köller."
 coverImage: ./painting-13.jpg
-type: "Acryl auf Leinwand"
+type: "Acryl"
 ---
 
 | Technik         | Maße    | Preis |

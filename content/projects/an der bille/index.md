@@ -2,7 +2,7 @@
 title: "An der Bille"
 description: "Gemälde 'An der Bille' von Bärbel Köller."
 coverImage: ./painting-15.jpg
-type: "Acryl auf Leinwand"
+type: "Acryl"
 ---
 
 | Technik         | Maße    | Preis |

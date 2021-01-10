@@ -2,7 +2,7 @@
 title: "Landschaft in Norwegen"
 description: "Gemälde 'Landschaft in Norwegen' von Bärbel Köller."
 coverImage: ./painting-37.jpg
-type: "Öl auf Malpappe"
+type: "Öl"
 ---
 
 | Technik                     | Maße    | Preis |

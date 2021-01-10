@@ -2,7 +2,7 @@
 title: "Muschel"
 description: "Gemälde 'Muschel' von Bärbel Köller."
 coverImage: ./painting-20.jpg
-type: "Acryl auf Leinwand"
+type: "Acryl"
 ---
 
 | Technik            | Maße    | Preis |

@@ -2,7 +2,7 @@
 title: "Landstreicher"
 description: "Gemälde 'Landstreicher' von Bärbel Köller."
 coverImage: ./painting-32.jpg
-type: "Acryl auf Leinwand"
+type: "Acryl"
 ---
 
 | Technik               | Maße    | Preis |

@@ -2,7 +2,7 @@
 title: "Hundekopf"
 description: "Gemälde 'Hundekopf' von Bärbel Köller."
 coverImage: "./painting-6.jpg"
-type: "Öl auf Malpappe"
+type: "Öl"
 ---
 
 | Technik                        | Maße    | Preis |

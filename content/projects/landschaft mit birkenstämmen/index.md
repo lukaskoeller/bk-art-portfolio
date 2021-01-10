@@ -2,7 +2,7 @@
 title: "Landschaft mit Birkenstämmen"
 description: "Gemälde 'Landschaft mit Birkenstämmen' von Bärbel Köller."
 coverImage: ./painting-22.jpg
-type: "Acryl auf Leinwand"
+type: "Acryl"
 ---
 
 | Technik            | Maße    | Preis |

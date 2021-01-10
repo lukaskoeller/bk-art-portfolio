@@ -2,7 +2,7 @@
 title: "Berber"
 description: "Gemälde 'Berber' von Bärbel Köller."
 coverImage: ./painting-2.jpg
-type: "Öl auf Malpappe"
+type: "Öl"
 ---
 
 | Technik         | Maße    | Preis |

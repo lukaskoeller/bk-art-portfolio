@@ -2,7 +2,7 @@
 title: "Die Musikerin"
 description: "Gemälde 'Die Musikerin' von Bärbel Köller."
 coverImage: ./painting-35.jpg
-type: "Acryl auf Leinwand"
+type: "Acryl"
 ---
 
 | Technik         | Maße    | Preis |

@@ -2,7 +2,7 @@
 title: "Frau mit rotem Stirnband"
 description: "Gemälde 'Frau mit rotem Stirnband' von Bärbel Köller."
 coverImage: ./painting-30.jpg
-type: "Acryl auf Leinwand"
+type: "Acryl"
 ---
 
 | Technik         | Maße    | Preis |
