@@ -54,66 +54,29 @@ const IndexPage = ({ data }) => {
     </Container>
     <Container id="gallery">
       <h2 className="container__headline">Gallerie</h2>
-      <h3 className="gallery__type">Acryl</h3>
-      <div className="projects">
-        {projects.filter(({ node }) => node.frontmatter.type === 'Acryl').map(({ node }) => {
-          return (
-            <Link to={node.fields.slug} key={node.id} className="project">
-              <Img className="project__image" fluid={node.frontmatter.coverImage.childImageSharp.fluid} />
-              <div className="project__info-container">
-                <div className="project__info">
-                  <h2 className="project__headline">{node.frontmatter.title}</h2>
-                </div>
-              </div>
-            </Link>
-          )
-        })}
-      </div>
-      <h3 className="gallery__type">Öl</h3>
-      <div className="projects">
-        {projects.filter(({ node }) => node.frontmatter.type === 'Öl').map(({ node }) => {
-          return (
-            <Link to={node.fields.slug} key={node.id} className="project">
-              <Img className="project__image" fluid={node.frontmatter.coverImage.childImageSharp.fluid} />
-              <div className="project__info-container">
-                <div className="project__info">
-                  <h2 className="project__headline">{node.frontmatter.title}</h2>
-                </div>
-              </div>
-            </Link>
-          )
-        })}
-      </div>
-      <h3 className="gallery__type">Aquarell</h3>
-      <div className="projects">
-        {projects.filter(({ node }) => node.frontmatter.type === 'Aquarell').map(({ node }) => {
-          return (
-            <Link to={node.fields.slug} key={node.id} className="project">
-              <Img className="project__image" fluid={node.frontmatter.coverImage.childImageSharp.fluid} />
-              <div className="project__info-container">
-                <div className="project__info">
-                  <h2 className="project__headline">{node.frontmatter.title}</h2>
-                </div>
-              </div>
-            </Link>
-          )
-        })}
-      </div>
-      <h3 className="gallery__type">Pastell</h3>
-      <div className="projects">
-        {projects.filter(({ node }) => node.frontmatter.type === 'Pastell').map(({ node }) => {
-          return (
-            <Link to={node.fields.slug} key={node.id} className="project">
-              <Img className="project__image" fluid={node.frontmatter.coverImage.childImageSharp.fluid} />
-              <div className="project__info-container">
-                <div className="project__info">
-                  <h2 className="project__headline">{node.frontmatter.title}</h2>
-                </div>
-              </div>
-            </Link>
-          )
-        })}
-      </div>
+      {['Acryl', 'Öl', 'Aquarell', 'Pastell'].map((category) => (
+        <React.Fragment key={category}>
+          <h3 className="gallery__type">{category}</h3>
+          <div className="projects">
+            {projects.filter(({ node }) => node.frontmatter.type === category).map(({ node }) => {
+              return (
+                <Link to={node.fields.slug} key={`${category}-${node.id}`} className="project">
+                  <Img
+                    className="project__image"
+                    image={node.frontmatter.coverImage.childImageSharp.gatsbyImageData}
+                    alt={node.frontmatter.title}
+                  />
+                  <div className="project__info-container">
+                    <div className="project__info">
+                      <h2 className="project__headline">{node.frontmatter.title}</h2>
+                    </div>
+                  </div>
+                </Link>
+              )
+            })}
+          </div>
+        </React.Fragment>
+      ))}
     </Container>
     <Container id="exhibitions">
       <h2 className="container__headline">Ausstellungen</h2>
