@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage as Img } from 'gatsby-plugin-image'
 import PropTypes from 'prop-types'
 
 // Components
@@ -51,7 +51,7 @@ class ProjectTemplate extends React.Component {
         <PageHeader>
           <div className={`page-header__split ${this.state.toggleClass}`}>
             <div className="page-header__image-container">
-              <Img className="page-header__image" fluid={this.state.project.frontmatter.coverImage.childImageSharp.fluid} imgStyle={{ objectFit: 'contain' }} />
+              <Img className="page-header__image" image={this.state.project.frontmatter.coverImage.childImageSharp.gatsbyImageData} imgStyle={{ objectFit: 'contain' }} />
             </div>
             <div className="page-header__info">
               <div className="info-content">
@@ -121,9 +121,7 @@ export const pageQuery = graphql`
                 description
                 coverImage {
                     childImageSharp {
-                        fluid(maxWidth: 800) {
-                          ...GatsbyImageSharpFluid
-                        }
+                      gatsbyImageData(layout: CONSTRAINED, width: 800)
                     }
                 }
             }
