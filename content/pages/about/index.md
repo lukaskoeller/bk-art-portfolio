@@ -16,8 +16,8 @@ Meine Erfahrungen gebe ich seit über zehn Jahren in kreativen Kinderkunstkursen
 ## Vita
 | 2015 - Heute | regelmäßiger Austausch und gemeinsames Arbeiten in einer kleinen Künstlergruppe                                       |
 |--------------|-----------------------------------------------------------------------------------------------------------------------|
-| 2008 - Heute | Teilzeitarbeit im pädagogischen Bereich: Kunstkurse an der Grundschule und Sprachförderung an Kitas          |
-| 2000 - Heute | regelmäßige Teilnahme an Kunstkursen und Weiterbildung an der VHS, bei Künstler/Innen und an der Hamburger Kunsthalle  |
+| 2008 - Heute | Teilzeitarbeit im pädagogischen Bereich: Kunstkurse an der Grundschule und Sprachförderung an Kitas                   |
+| 2000 - Heute | regelmäßige Teilnahme an Kunstkursen und Weiterbildung an der VHS, bei Künstler/Innen und an der Hamburger Kunsthalle |
 | 1989 - Heute | gemeinschaftliches Wohnen in Aumühle bei Hamburg                                                                      |
 | 1988 - 1998  | Hausfrau und Mutter von vier Kinder                                                                                   |
 | 1980 - 1988  | Ausbildung zur Ergotherapeutin und Berufstätigkeit                                                                    |
@@ -25,9 +25,9 @@ Meine Erfahrungen gebe ich seit über zehn Jahren in kreativen Kinderkunstkursen
 
 ## Ausstellungen
 | 2019 | Gemeinschaftausstellung "Menschen und Farbspiele" im "Augustinum" in Aumühe |
-|------|---------------------------------------------------------------------------|
-| 2017 | Gemeinschaftsausstellung in der Praxis Köller in Hamburg                  |
+|------|-----------------------------------------------------------------------------|
+| 2017 | Gemeinschaftsausstellung in der Praxis Köller in Hamburg                    |
 | 2015 | Gemeinschaftsausstellung "Nah und Fern" im "Augustinum" in Aumühle          |
-|      | Teilnahme an der "Bergedorfer Kunstschau"                                 |
+|      | Teilnahme an der "Bergedorfer Kunstschau"                                   |
 | 2010 | Einzelausstellung im "Cafe Larigo" in Hamburg                               |
 | 2008 | Gemeinschaftsausstellung im "Augustinum" Aumühle                            |
