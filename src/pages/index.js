@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage as Img } from 'gatsby-plugin-image'
 import PropTypes from 'prop-types'
 // import fs from 'fs'
 
@@ -35,16 +35,16 @@ const IndexPage = ({ data }) => {
     <SEO title="Home" />
     <div className="hero">
       <div className="hero__image">
-        <Img fluid={data.heroImage.childImageSharp.fluid} />
+        <Img image={indexPage.coverImage.childImageSharp.gatsbyImageData} alt="Barbara Köller Gemälde" />
       </div>
     </div>
     <Container>
       <div className="intro">
         <div className="intro__about">
-          <div dangerouslySetInnerHTML={{ __html: indexPage.frontmatter.intro }}></div>
-          <Link to='/about' class="intro__link">Weiterlesen</Link>
+          <div dangerouslySetInnerHTML={{ __html: indexPage.intro }}></div>
+          <Link to='/about' className="intro__link">Weiterlesen</Link>
         </div>
-        <Img className="intro__image" fluid={indexPage.frontmatter.introImage.childImageSharp.fluid} />
+        <Img className="intro__image" image={indexPage.introImage.childImageSharp.gatsbyImageData} alt="Barbara Köller Portrait" />
         {/* <div className="intro__quote">
           <blockquote>
             <p>You don&apos;t have to be great to start, but you have to start to be great.</p>
@@ -133,7 +133,7 @@ const IndexPage = ({ data }) => {
                     <p className="exhibition__desc">{node.frontmatter.description}</p>
                   </div>
                   <div className="exhibition__checkout">
-                    <div className="exhibition__btn" onClick={() => shareEvent('https://bk-art.netlify.com', node.frontmatter.title, `Kunstausstellung von Bärbel Köller | ${node.frontmatter.dateText} | ${node.frontmatter.location}`)}>Teilen</div>
+                    <div className="exhibition__btn" onClick={() => shareEvent('https://bk-kunst.de', node.frontmatter.title, `Kunstausstellung von Bärbel Köller | ${node.frontmatter.dateText} | ${node.frontmatter.location}`)}>Teilen</div>
                     {/* <div className="exhibition__btn">Zum Kalender hinzufügen</div> */}
                   </div>
                 </div>
@@ -143,7 +143,7 @@ const IndexPage = ({ data }) => {
     </Container>
     <Container id="contact" styleModifier={['dark-theme']}>
       <h2 className="container__headline container__headline--light">Kontakt</h2>
-      <div className="contact" dangerouslySetInnerHTML={{ __html: indexPage.frontmatter.contact }}>
+      <div className="contact" dangerouslySetInnerHTML={{ __html: indexPage.contact }}>
         {/* <p className="contact__desc p p--light">Hallo! Für allgemeine Anfragen schick eine Email an <a href="mailto:bk-art@web.de">bk-art@web.de</a>. Wenn du Interesse an einem Kauf der Bilder hast, schicke eine <a href={`mailto:bk-art@web.de?subject=Kaufanfrage - ${new Date().toISOString()}`}>Kaufanfrage</a>.</p> */}
       </div>
     </Container>
@@ -167,9 +167,7 @@ export const pageQuery = graphql`
             type
             coverImage {
               childImageSharp {
-                  fluid(maxWidth: 800) {
-                    ...GatsbyImageSharpFluid
-                  }
+                gatsbyImageData(layout: CONSTRAINED, width: 800)
               }
             }
           }
@@ -202,34 +200,16 @@ export const pageQuery = graphql`
             intro
             introImage {
               childImageSharp {
-                fluid(maxWidth: 1920) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(layout: CONSTRAINED, width: 1920)
               }
             }
             contact
             coverImage {
               childImageSharp {
-                fluid(maxWidth: 1920) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(layout: CONSTRAINED, width: 1920)
               }
             }
           }
-        }
-      }
-    }
-    heroImage: file(relativePath: { eq: "painting-1.jpg" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    myImage: file(relativePath: { eq: "me.jpg" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
         }
       }
     }
