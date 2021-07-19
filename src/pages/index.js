@@ -27,7 +27,7 @@ const IndexPage = ({ data }) => {
       console.log('Successfully shared event')
     } catch (err) {
       window.open(`https://wa.me/?text=${encodeURI(`${title} - ${text} | ${url} `)}`)
-      console.log(`Error: ${err}`)
+      console.error(`WebShare Error: ${err}`)
     }
   }
 
