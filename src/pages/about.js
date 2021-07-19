@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
-import Img from 'gatsby-image'
+import { GatsbyImage as Img } from 'gatsby-plugin-image'
 
 // Components
 import Layout from '../components/layout'
@@ -25,7 +25,7 @@ const AboutPage = ({ data }) => {
       </PageHeader>
       <Container styleModifier={['no-padding']}>
         <div className="about__image">
-          <Img fluid={about.frontmatter.coverImage.childImageSharp.fluid}/>
+          <Img image={about.frontmatter.coverImage.childImageSharp.gatsbyImageData}/>
         </div>
       </Container>
       <Container>
@@ -51,9 +51,7 @@ export const pageQuery = graphql`
             description
             coverImage {
               childImageSharp {
-                fluid(maxWidth: 1920) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(layout: CONSTRAINED, width: 1920)
               }
             }
           }
