@@ -15,7 +15,7 @@ import './index.scss'
 const IndexPage = ({ data }) => {
   const projects = data.projects.edges
   const exhibitions = data.exhibitions.edges
-  const indexPage = data.indexPage.edges[0].node
+  const indexPage = data.indexPage.edges[0].node.frontmatter
 
   async function shareEvent (url, title, text) {
     try {
