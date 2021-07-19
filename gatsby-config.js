@@ -5,6 +5,7 @@ module.exports = {
     author: 'Lukas Koeller'
   },
   plugins: [
+    'gatsby-plugin-image',
     'gatsby-plugin-sharp', // Put this plugin first (see: https://dev.to/stephencweiss/error-field-image-must-not-have-a-selection-since-type-string-has-no-subfields-3a76)
     'gatsby-transformer-sharp', // Put this plugin second
     {
