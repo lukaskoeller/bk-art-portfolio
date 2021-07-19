@@ -13,13 +13,13 @@ import Header from './header'
 import Footer from './footer'
 
 // Styles
-import layout from './layout.module.scss'
+import { main } from './layout.module.scss'
 
 const Layout = ({ children, theme, title }) => {
   return (
     <>
       <Header title={title} theme={theme} />
-      <main className={layout.main}>{children}</main>
+      <main className={main}>{children}</main>
       <Footer />
     </>
   )
